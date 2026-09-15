@@ -18,7 +18,7 @@ h2 {
 .collections-button {
     display: inline-block;
     padding: 20px 50px;
-    border-radius: 8px;
+    border-radius: 20px;
     background-color: lightyellow;
     text-decoration: none;
     color: black;
@@ -26,5 +26,25 @@ h2 {
 
 .collections-button:hover {
     background-color: whitesmoke;
-    border-radius: 12px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.farmingCollection-button {
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: lightyellow;
+    text-decoration: none;
+    color: black;
+}
+
+.farmingCollection-button:hover {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
 }
