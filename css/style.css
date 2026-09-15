@@ -3,6 +3,11 @@ body {
     background-color: #526577;
 }
 
+farmingBody {
+    background-color:green;
+    font-family: 'Times New Roman';
+}
+
 h1 {
     color: black;
     text-align: center;
