@@ -1,0 +1,21 @@
+.collection-nav {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: sienna;
+}
+
+.collection-nav a {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+}
+
+.collection-nav a:hover {
+    color: brown;
+}
