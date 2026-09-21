@@ -15,13 +15,60 @@
     border-width: 3px;
 }
 
-.farming-page {
+.image-page {
     min-height: 100vh;
-    background-image: url("../../assets/images/backgrounds/farming1.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.farming-page {
+    background-image: url("../../assets/images/backgrounds/farming1.webp");
+}
+
+.cactus-page {
+    background-image: url("../../assets/images/collections/farming/crops/cactus1.webp");
+}
+
+.carrot-page {
+    background-image: url("../../assets/images/collections/farming/crops/carrot1.webp");
+}
+
+.cocoaBeans-page {
+    background-image: url("../../assets/images/collections/farming/crops/cocoaBeans1.webp");
+}
+
+.melon-page {
+    background-image: url("../../assets/images/collections/farming/crops/melon1.webp");
+}
+
+.mushroom-page {
+    background-image: url("../../assets/images/collections/farming/crops/mushroom1.webp");
+}
+
+.netherWart-page {
+    background-image: url("../../assets/images/collections/farming/crops/netherWart1.webp");
+}
+
+.potato-page {
+    background-image: url("../../assets/images/collections/farming/crops/potato1.webp");
+}
+
+.pumpkin-page {
+    background-image: url("../../assets/images/collections/farming/crops/pumpkin1.webp");
+}
+
+.seeds-page {
+    background-image: url("../../assets/images/collections/farming/crops/seeds1.webp");
+}
+
+.sugarCane-page {
+    background-image: url("../../assets/images/collections/farming/crops/sugarCane1.webp");
+}
+
+.wheat-page {
+    background-image: url("../../assets/images/collections/farming/crops/wheat1.webp");
 }
 
 .farming-title {
