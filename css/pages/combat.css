@@ -1,0 +1,97 @@
+.combat-title {
+    text-align: center;
+
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 60px;
+
+    color: #3b2416;
+}
+
+.combat-page {
+    min-height: 100vh;
+    background-image: url("../../assets/images/backgrounds/combat 2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* All combat buttons */
+.combat-panel {
+    width: 75%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+    padding: 35px;
+
+    background-color: #657786;
+
+    border: 2px solid #3b2416;
+    border-radius: 20px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/*  Top 8 Buttons */
+.combat-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+/* Bottom 3 Buttons */
+.combat-bottom-row {
+    display: flex;
+    justify-content: center;
+
+    gap: 22px;
+    margin-top: 22px;
+}
+
+/* All combat buttons */
+.combat-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 80px;
+    padding: 10px 20px;
+    
+    background-color: #9b633c;
+    color: #332b27;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    text-decoration: none;
+    border: 2px solid #3b2416;
+    border-radius: 14px;
+    box-shadow: 0 4px 0 #3b2416;
+    transition: 0.2s;
+}
+
+.combat-grid {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.combat-bottom-row .combat-button {
+    width: 200px;
+}
+
+.combat-button:hover {
+    background-color: #b8733f;
+    transform: translateY(-4px);
+    box-shadow: 
+        0 8px 12px rgba(0, 0, 0, 0.25)
+        0 4px 0 #3b2416;
+}
