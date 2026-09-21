@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+    <head>
+        <meta charset= "UTF-8">
+        <meta name= "viewport" content= "width= device-width, initial-scale= 1.0">
+        <!-- Login Page. -->
+        <title>login</title>
+
+        <link rel = "stylesheet" href="../css/style.css">
+        <link rel = "stylesheet" href="../css/collections.css">
+        <link rel = "stylesheet" href="../css/users.css">
+        
+        <style>
+            body {
+                background-color: darkslategrey;
+            }
+        </style>
+    </head>
+
+    <body class="account-page">
+
+        <div class="account-container">
+        <h1>Login</h1>
+
+        <form class="account-form">
+            <label for="username">Username</label>
+            <input 
+                type="text" 
+                id="username"
+                name="username"
+                required
+            >
+
+            <label for="password">Password</label>
+            <input 
+                type="password" 
+                id="password"
+                name="password"
+                required
+            >
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p class="account-switch">
+            Don't have an account?
+            <a href="signup.html">Sign Up</a>
+        </p>
+
+        <a class="return-button" href="../index.html">Return</a>
+        </div>
+
+        <script src="../js/main.js"></script>
+    </body>
+</html>

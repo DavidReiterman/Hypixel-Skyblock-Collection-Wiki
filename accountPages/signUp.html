@@ -3,11 +3,12 @@
     <head>
         <meta charset= "UTF-8">
         <meta name= "viewport" content= "width= device-width, initial-scale= 1.0">
-        <!-- Login/Signup Page -->
-        <title>login</title>
+        <!-- Sign Up Page. -->
+        <title>Sign Up</title>
 
         <link rel = "stylesheet" href="../css/style.css">
         <link rel = "stylesheet" href="../css/collections.css">
+        <link rel = "stylesheet" href="../css/users.css">
         
         <style>
             body {
@@ -16,10 +17,12 @@
         </style>
     </head>
 
-    <body>
-        <h1> Login </h1>
+    <body class="account-page">
 
-        <form>
+        <div class="account-container">
+        <h1>Sign Up</h1>
+
+        <form class="account-form">
             <label for="username">Username</label>
             <input 
                 type="text" 
@@ -35,8 +38,10 @@
                 name="password"
                 required
             >
+            </div>
+            <a class="return-button" href="../index.html">Return</a>
+            <a class="returnToLogin-button" href="login.html">Return To Login</a>
 
-            <button type="submit">Login</button>
         </form>
 
         <script src="../js/main.js"></script>

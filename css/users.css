@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+}
+
+.account-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252f2d;
+    font-family: Gerogia, "Times New Roman", serif;
+}
+
+.account-container {
+    width: 400px;
+    padding: 45px;
+    background-color: #332b27;
+    border: 2px solid #8a5a38;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.account-container h1 {
+    margin-top: 0;
+    margin-bottom: 35px;
+
+    text-align: center;
+    font-size: 48px;
+
+    color: #d59a62;
+}
+
+.account-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-form label {
+    margin-bottom: 8px;
+    color: #e1c7aa;
+    font-size: 18px;
+}
+
+.account-form input {
+    padding: 14px;
+    margin-bottom: 20px;
+    background-color: #211d1a;
+    color: white;
+    border: 2px solid #70503a;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.account-form button {
+    padding: 14px;
+    background-color: #a95f32;
+    color: #21150e;
+
+    border: 2px solid #5c351f;
+    border-radius: 8px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.account-form button:hover {
+    background-color: #c47743;
+}
+
+.account-switch {
+    margin-top: 25px;
+    text-align: center;
+    color: #c9b29a;
+}
+
+.account-switch a {
+    color: #d99559
+}
+
+.return-button {
+    position: fixed;
+
+    left: 20px;
+    bottom: 20px;
+    padding: 12px 24px;
+
+    background-color: #bd6833;
+    color: black;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+
+    font-family: Georgia, "Times New Roman", serif;    font-weight: bold;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.return-button:hover {
+    background-color: #C06A3B;
+}
+
+.returnToLogin-button {
+    position: fixed;
+
+    right: 20px;
+    bottom: 20px;
+    padding: 12px 24px;
+
+    background-color: #bd6833;
+    color: black;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+
+    font-family: Georgia, "Times New Roman", serif;    font-weight: bold;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.returnToLogin-button:hover {
+    background-color: #C06A3B;
+}
