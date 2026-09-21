@@ -21,3 +21,57 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.dungeonBoss-grid {
+    width: 80%;
+    max-width: 1100px;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+}
+
+.dungeonBoss-button {
+    grid-column: span 2;
+    padding: 30px 20px;
+
+    background-color: rgba(55, 25, 25, 0.92);
+    color: #f1d5bd;
+
+    border: 2px solid #9e563e;
+    border-bottom: 5 px solid #633124;
+    border-radius: 12px;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: bold;
+
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.45);
+
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.dungeonBoss-button:hover {
+    background-color: rgba(25, 38, 32, 0.96);
+    border-color: #cf7c58;
+    transform: translateY(-5px);
+}
+
+.dungeonBoss-button:last-child {
+    grid-column: 2;
+}
+
+.dungeonBoss-button:nth-child(7) {
+    grid-column: 2 / span 2;
+}
+
+.dungeonBoss-button:nth-child(8) {
+    grid-column: 4 / span 2;
+}
