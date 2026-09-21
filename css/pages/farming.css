@@ -1,0 +1,25 @@
+.farmingCollection-button {
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: lightyellow;
+    text-decoration: none;
+    color: black;
+}
+
+.farmingCollection-button:hover {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.farming-page {
+    min-height: 100vh;
+    background-image: url("../../assets/images/farming1.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

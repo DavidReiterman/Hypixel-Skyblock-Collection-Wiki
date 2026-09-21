@@ -1,21 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .collection-nav {
     display: flex;
-    width: 100%;
+
     position: sticky;
-    top: 0;
+    top: 8px;
     z-index: 1000;
-    background-color: sienna;
+
+    margin: 8px;
+    border: 2px solid #24150d;
+    border-radius: 12px;
+
+    background-color: #3b2416;
+    overflow: hidden;
 }
 
 .collection-nav a {
     flex: 1;
-    padding: 20px;
+    padding: 18px 15px;
+
+    background-color: #b76532;
+    color: #21140c;
+
     text-align: center;
     text-decoration: none;
-    color: black;
-    border: 1px solid black;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 18px;
+
+    border-right: 2px solid #75401f;
+    transition: 0.2s;
 }
 
 .collection-nav a:hover {
-    color: brown;
+    background-color: #d17a42;
+}
+
+.collection-nav a:last-child {
+    border-right: none;
+}
+
+.collection-nav a:active {
+    background-color: #9f4f27;
+}
+
+.login-button {
+    position: fixed;
+
+    left: 20px;
+    bottom: 20px;
+    padding: 12px 24px;
+
+    background-color: #bd6833;
+    color: black;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+
+    font-family: Georgia, "Times New Roman", serif;    font-weight: bold;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.login-button:hover {
+    background-color: #C06A3B;
 }
