@@ -1,18 +1,21 @@
 .combat-title {
     text-align: center;
-
-    margin-top: 70px;
-    margin-bottom: 50px;
+    margin-top: 80px;
 
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 60px;
+    font-size: 72px;
+    font-weight: bold;
+    color: #e8b894;
+    -webkit-text-stroke: 2px #2b180e;
 
-    color: #3b2416;
+    text-shadow:
+        2px 2px 0 #9b5934,
+        3px 4px 2px rgba(0, 0, 0, 0.4)
 }
 
 .combat-page {
     min-height: 100vh;
-    background-image: url("../../assets/images/backgrounds/combat 2.jpg");
+    background-image: url("../../assets/images/backgrounds/combat3.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
