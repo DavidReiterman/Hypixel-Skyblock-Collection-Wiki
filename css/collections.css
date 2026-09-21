@@ -62,12 +62,12 @@ body {
     color: #c9a98b;
     font-size: 24px;
     text-decoration: none;
-    transition: 0.2s;
+    transition: 0.6s;
 }
 
 .settings-button:hover {
     color: #e2c3a5;
-    transform: rotate(30deg);
+    transform: rotate(90deg);
 }
 
 .main-nav {

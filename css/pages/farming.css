@@ -17,6 +17,8 @@
 
 .image-page {
     min-height: 100vh;
+    position: relative;
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +26,12 @@
 }
 
 .farming-page {
+    min-height: 100vh;
     background-image: url("../../assets/images/backgrounds/farming1.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .cactus-page {
@@ -115,4 +122,104 @@
     font-family: Gerogia, "Times New Roman", serif;
     font-size: 18px;
     font-weight: bold;
+}
+
+.image-page::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    background-color: rgba(20, 15, 10, 0.2);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.collection-content {
+    position: relative;
+    z-index: 5;
+
+    width: 75%;
+    max-width: 1200px;
+    min-height: 700px;
+
+    margin: 40px 0 auto;
+    padding: 50px;
+
+    background-color: #332b27;
+
+    box-sizing: border-box;
+}
+
+.top-header {
+    position: relative;
+    z-index: 1000;
+}
+
+.farming-title {
+    position: relative;
+    z-index: 10;
+}
+
+.main-nav {
+    position: relative;
+    z-index: 1001;
+}
+
+.dropdown {
+    position: relative;
+    z-index: 1002;
+}
+
+.dropdown-menu {
+    z-index: 1003;
+}
+
+.collection-content {
+    position: relative;
+    z-index: 5;
+
+    width: 72%;
+    max-width: 1200px;
+    min-height: calc(100vh - 115px);
+
+    margin: 0 auto;
+    padding: 35px 60px;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(58, 43, 32, 0.97),
+        rgba(42, 31, 25, 0.98)
+    );
+
+    border-left: 2px solid #9b704e;
+    border-right: 2px solid #9b704e;
+
+    box-shadow:
+        -15px 0 30px rgba(0, 0, 0, 0.3),
+        15px 0 30px rgba(0, 0, 0, 0.3);
+
+    box-sizing: border-box;
+}
+
+.collection-content .farming-title {
+    margin: 20px 0 25px;
+}
+
+.section-divider {
+    width: 90%;
+    height: 2px;
+
+    margin: 0 auto 40px;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        #9b704e,
+        #e8b894,
+        #9b704e,
+        transparent
+    );
 }
