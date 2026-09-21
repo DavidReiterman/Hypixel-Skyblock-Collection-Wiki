@@ -125,3 +125,26 @@ body {
 .returnToLogin-button:hover {
     background-color: #C06A3B;
 }
+
+.homePage-button {
+    position: fixed;
+
+    right: 20px;
+    bottom: 20px;
+    padding: 12px 24px;
+
+    background-color: #bd6833;
+    color: black;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+
+    font-family: Georgia, "Times New Roman", serif;    font-weight: bold;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.homePage-button:hover {
+    background-color: #C06A3B;
+}

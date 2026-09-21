@@ -17,9 +17,49 @@
 
 .farming-page {
     min-height: 100vh;
-    background-image: url("../../assets/images/farming1.webp");
+    background-image: url("../../assets/images/collections/homePageBackgrounds/farming1.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.farming-title {
+    text-align: center;
+    margin-top: 60px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 50px;
+    color: #3b2416;
+}
+
+.farming-grid {
+    width: 90%;
+    max-width: 12000px;
+
+    margin: 50px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.farmingCollection-button {
+    width: 140px;
+    padding: 25px 15px;
+
+    background-color: #718335;
+    color: #f5edda;
+
+    border: 2px solid #3f4d2c;
+    border-bottom: 5px solid #3f4d2c;
+    border-radius: 10px;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-family: Gerogia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
 }
