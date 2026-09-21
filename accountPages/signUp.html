@@ -1,49 +1,173 @@
 <!DOCTYPE HTML>
-<html lang = "en">
-    <head>
-        <meta charset= "UTF-8">
-        <meta name= "viewport" content= "width= device-width, initial-scale= 1.0">
-        <!-- Sign Up Page. -->
-        <title>Sign Up</title>
+<html lang="en">
 
-        <link rel = "stylesheet" href="../css/style.css">
-        <link rel = "stylesheet" href="../css/collections.css">
-        <link rel = "stylesheet" href="../css/users.css">
-        
-        <style>
-            body {
-                background-color: darkslategrey;
-            }
-        </style>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body class="account-page">
+    <!-- Sign Up Page -->
+    <title>Sign Up</title>
 
-        <div class="account-container">
-        <h1>Sign Up</h1>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/collections.css">
+    <link rel="stylesheet" href="../css/users.css">
 
+    <style>
+        body {
+            background-color: darkslategrey;
+        }
+    </style>
+</head>
+
+
+<body class="account-page">
+
+    <!-- TOP HEADER -->
+    <header class="top-header">
+
+        <!-- Account Bar -->
+        <div class="account-bar">
+
+            <div class="account-links">
+
+                <a href="login.html">Login</a>
+
+                <span class="account-divider"></span>
+
+                <a href="signup.html">Sign Up</a>
+
+            </div>
+
+
+            <!-- Website Title -->
+            <a href="../index.html" class="site-title">
+                Hypixel Skyblock Wiki
+            </a>
+
+
+            <!-- Settings -->
+            <a href="../settings.html"
+               class="settings-button"
+               title="Settings">
+                ⚙
+            </a>
+
+        </div>
+
+
+        <!-- Navigation Bar -->
+        <nav class="main-nav">
+
+            <div class="dropdown">
+
+                <button class="drop-button">
+                    Collections ▾
+                </button>
+
+                <div class="dropdown-menu">
+
+                    <a href="../collectionPages/combatCollections/combat.html">
+                        Combat
+                    </a>
+
+                    <a href="../collectionPages/miningCollections/mining.html">
+                        Mining
+                    </a>
+
+                    <a href="../collectionPages/farmingCollections/farming.html">
+                        Farming
+                    </a>
+
+                    <a href="../collectionPages/foragingCollections/foraging.html">
+                        Foraging
+                    </a>
+
+                    <a href="../collectionPages/fishingCollections/fishing.html">
+                        Fishing
+                    </a>
+
+                    <a href="../collectionPages/dungeonBossCollections/dungeonBoss.html">
+                        Dungeon Bosses
+                    </a>
+
+                    <a href="../collectionPages/riftCollections/rift.html">
+                        Rift
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- SIGN UP BOX -->
+    <div class="account-container">
+
+        <h1 class="index-title">
+            Sign Up
+        </h1>
+
+
+        <!-- Decorative Divider -->
+        <div class="title-divider">
+
+            <span class="line"></span>
+
+            <span class="diamond"></span>
+
+            <span class="diamond middle"></span>
+
+            <span class="diamond"></span>
+
+            <span class="line"></span>
+
+        </div>
+
+
+        <!-- Sign Up Form -->
         <form class="account-form">
-            <label for="username">Username</label>
-            <input 
-                type="text" 
+
+            <label for="username">
+                Username
+            </label>
+
+            <input
+                type="text"
                 id="username"
                 name="username"
                 required
             >
 
-            <label for="password">Password</label>
-            <input 
-                type="password" 
+
+            <label for="password">
+                Password
+            </label>
+
+            <input
+                type="password"
                 id="password"
                 name="password"
                 required
             >
-            </div>
-            <a class="return-button" href="../index.html">Return</a>
-            <a class="returnToLogin-button" href="login.html">Return To Login</a>
+
+
+            <button
+                type="submit"
+                class="signup-submit-button">
+                Sign Up
+            </button>
 
         </form>
 
-        <script src="../js/main.js"></script>
-    </body>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+
+</body>
+
 </html>

@@ -4,27 +4,33 @@ body {
 
 .account-page {
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     background-color: #252f2d;
-    font-family: Gerogia, "Times New Roman", serif;
+
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 .account-container {
     width: 400px;
     padding: 45px;
+
+    margin: 70px auto 100px;
+
     background-color: #332b27;
+
     border: 2px solid #8a5a38;
     border-radius: 18px;
+
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
+
 
 .account-container h1 {
     margin-top: 0;
     margin-bottom: 35px;
 
     text-align: center;
+
     font-size: 48px;
 
     color: #d59a62;
@@ -37,22 +43,28 @@ body {
 
 .account-form label {
     margin-bottom: 8px;
+
     color: #e1c7aa;
+
     font-size: 18px;
 }
 
 .account-form input {
     padding: 14px;
     margin-bottom: 20px;
+
     background-color: #211d1a;
     color: white;
+
     border: 2px solid #70503a;
     border-radius: 8px;
+
     font-size: 18px;
 }
 
 .account-form button {
     padding: 14px;
+
     background-color: #a95f32;
     color: #21150e;
 
@@ -64,20 +76,89 @@ body {
     font-weight: bold;
 
     cursor: pointer;
+
+    transition: 0.2s;
 }
 
 .account-form button:hover {
     background-color: #c47743;
 }
 
+.signup-submit-button {
+    width: 100%;
+    padding: 14px;
+
+    background-color: #b96732;
+    color: #1f120c;
+
+    border: 2px solid #7d492a;
+    border-radius: 8px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.signup-submit-button:hover {
+    background-color: #d07b43;
+
+    transform: translateY(-2px);
+}
+
+.signup-submit-button:active {
+    transform: translateY(1px);
+}
+
 .account-switch {
     margin-top: 25px;
+
     text-align: center;
+
     color: #c9b29a;
 }
 
 .account-switch a {
-    color: #d99559
+    color: #d99559;
+}
+
+.title-divider {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 9px;
+
+    margin: -15px 0 35px;
+}
+
+.title-divider .line {
+    width: 70px;
+    height: 2px;
+
+    background-color: #c7834d;
+}
+
+.title-divider .diamond {
+    width: 9px;
+    height: 9px;
+
+    background-color: #c7834d;
+
+    transform: rotate(45deg);
+}
+
+.title-divider .middle {
+    width: 13px;
+    height: 13px;
+
+    background-color: transparent;
+
+    border: 2px solid #c7834d;
 }
 
 .return-button {
@@ -85,6 +166,7 @@ body {
 
     left: 20px;
     bottom: 20px;
+
     padding: 12px 24px;
 
     background-color: #bd6833;
@@ -92,15 +174,16 @@ body {
 
     border: 2px solid black;
     border-radius: 10px;
+
     text-decoration: none;
 
-    font-family: Georgia, "Times New Roman", serif;    font-weight: bold;
+    font-family: Georgia, "Times New Roman", serif;
     font-weight: bold;
     font-size: 18px;
 }
 
 .return-button:hover {
-    background-color: #C06A3B;
+    background-color: #c47743;
 }
 
 .returnToLogin-button {
@@ -108,6 +191,7 @@ body {
 
     right: 20px;
     bottom: 20px;
+
     padding: 12px 24px;
 
     background-color: #bd6833;
@@ -115,15 +199,16 @@ body {
 
     border: 2px solid black;
     border-radius: 10px;
+
     text-decoration: none;
 
-    font-family: Georgia, "Times New Roman", serif;    font-weight: bold;
+    font-family: Georgia, "Times New Roman", serif;
     font-weight: bold;
     font-size: 18px;
 }
 
 .returnToLogin-button:hover {
-    background-color: #C06A3B;
+    background-color: #c47743;
 }
 
 .homePage-button {
@@ -131,6 +216,7 @@ body {
 
     right: 20px;
     bottom: 20px;
+
     padding: 12px 24px;
 
     background-color: #bd6833;
@@ -138,13 +224,15 @@ body {
 
     border: 2px solid black;
     border-radius: 10px;
+
     text-decoration: none;
 
-    font-family: Georgia, "Times New Roman", serif;    font-weight: bold;
+    font-family: Georgia, "Times New Roman", serif;
     font-weight: bold;
     font-size: 18px;
 }
 
+
 .homePage-button:hover {
-    background-color: #C06A3B;
+    background-color: #c47743;
 }

@@ -9,6 +9,7 @@
         <link rel = "stylesheet" href="../../../../css/style.css">
         <link rel = "stylesheet" href="../../../../css/collections.css">
         <link rel = "stylesheet" href="../../../../css/users.css">
+        <link rel = "stylesheet" href="../../../../css/pages/combat.css">
 
         <style>
             body {
@@ -18,21 +19,44 @@
     </head>
 
     <body>
-        <nav class="collection-nav">
-            <a href="../../combatCollections/combat.html">Combat</a>
-            <a href="../../miningCollections/mining.html">Mining</a>
-            <a href="../../farmingCollections/farming.html">Farming</a>
-            <a href="../../foragingCollections/foraging.html">Foraging</a>
-            <a href="../../fishingCollections/fishing.html">Fishing</a>
-            <a href="../../dungeonBossCollections/dungeonBoss.html">Dungeon Bosses</a>
-            <a href="../../riftCollections/rift.html">Rift</a>
-        </nav>
+        <header class="top-header">
+            <div class="account-bar">
+                <div class="account-links">
+                    <a href="../../../../accountPages/login.html">Login</a>
+                    
+                    <span class="account-divider"></span>
 
-        <h1>Slimeball</h1>
+                    <a href="../../../../accountPages/signup.html">Sign Up</a>
+                </div>
 
-        <a class="login-button" href="../../../accountPages/login.html">Login</a>
-        <a class="homePage-button" href="../../../index.html">Home page</a>
+                <a href="../../../../index.html" class="site-title">
+                    Hypixel Skyblock Wiki
+                </a>
 
-        <script src="../../../js/main.js"></script>
+                <a href="../../../../settings.html" class="settings-button" title="Settings">
+                    ⚙
+                </a>
+            </div>
+
+            <nav class="main-nav">
+                <div class="dropdown">
+                    <button class="drop-button">Collections ▾</button>
+
+                    <div class="dropdown-menu">
+                        <a href="../../../combatCollections/combat.html">Combat</a>
+                        <a href="../../../miningCollections/mining.html">Mining</a>
+                        <a href="../../../farmingCollections/farming.html">Farming</a>
+                        <a href="../../../foragingCollections/foraging.html">Foraging</a>
+                        <a href="../../../fishingCollections/fishing.html">Fishing</a>
+                        <a href="../../../dungeonBossCollections/dungeonBoss.html">Dungeon Bosses</a>
+                        <a href="../../../riftCollections/rift.html">Rift</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <h1 class="combat-title">Slimeball</h1>
+
+        <script src="../../../../js/main.js"></script>
     </body>
 </html>

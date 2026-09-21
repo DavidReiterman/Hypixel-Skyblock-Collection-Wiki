@@ -15,7 +15,7 @@
 
 .combat-page {
     min-height: 100vh;
-    background-image: url("../../assets/images/backgrounds/combat3.webp");
+    background-image: url("../../assets/images/backgrounds/combat1.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,13 +38,6 @@
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
-/*  Top 8 Buttons */
-.combat-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 22px;
-}
-
 /* Bottom 3 Buttons */
 .combat-bottom-row {
     display: flex;
@@ -59,21 +52,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 
     min-height: 80px;
     padding: 10px 20px;
+
+    background: linear-gradient(
+        145deg,
+        #ad7047,
+        #8d5333
+    );
     
-    background-color: #9b633c;
-    color: #332b27;
+    color: #f0c39e;
 
     font-family: Georgia, "Times New Roman", serif;
     font-size: 18px;
     font-weight: bold;
 
-    text-decoration: none;
-    border: 2px solid #3b2416;
+    border: 2px solid #2b180e;
     border-radius: 14px;
-    box-shadow: 0 4px 0 #3b2416;
+
+    box-shadow: 
+        0 5px 0 #3b2416,
+        0 8px 12px rgba(0, 0, 0, 0.3);
+    
+    text-shadow:
+        1px 1px 0 #4b2a19;
+
     transition: 0.2s;
 }
 
@@ -92,9 +97,23 @@
 }
 
 .combat-button:hover {
-    background-color: #b8733f;
+    background: linear-gradient(
+        145deg,
+        #c98250,
+        #a46039
+    );
+
     transform: translateY(-4px);
+
     box-shadow: 
-        0 8px 12px rgba(0, 0, 0, 0.25)
-        0 4px 0 #3b2416;
+        0 7px 0 #4b2a19,
+        0 12px 16px rgba(0, 0, 0, 0.35);
+}
+
+.combat-button:ative {
+    transform: translateY(2px);
+
+    box-shadow:
+        0 2px 0 #4b2a19,
+        0 5px 8px rgba(0, 0, 0, 0.3);
 }
