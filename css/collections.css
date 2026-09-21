@@ -3,6 +3,149 @@ body {
     padding: 0;
 }
 
+.account-bar {
+    height: 44px;
+    padding: 0 30px;
+
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+
+    background-color: #2b211c;
+    border-bottom: 1px solid #5c4030;
+
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.account-links {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    justify-self: start;
+}
+
+.account-links a {
+    color: #c9a98b;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.account-links a:hover {
+    color: #e2c3a5;
+}
+
+.account-divider {
+    width: 1px;
+    height: 18px;
+}
+
+.site-title {
+    justify-self: center;
+
+    color: #d7b18b;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+
+.site-title:hover {
+    color: #f0cfad;
+}
+
+.settings-button {
+    justify-self: end;
+    color: #c9a98b;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.settings-button:hover {
+    color: #e2c3a5;
+    transform: rotate(30deg);
+}
+
+.main-nav {
+    height: 52px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    background-color: #3b2b22;
+    border-bottom: 2px solid #24150d;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.dropdown {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.drop-button {
+    height: 100%;
+    padding: 0 22px;
+    background: none;
+    border: none;
+    color: #d7b18b;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.drop-button:hover {
+    background-color: #50392c;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+
+    top: 52px;
+    left: 0;
+
+    min-width: 210px;
+    background-color: #2b211c;
+    border: 1px solid #5c4030;
+    border-top: none;
+
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 14px 18px;
+    color: #c9a98b;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #463329;
+    transition: 0.2s;
+}
+
+.dropdown-menu a:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #50392c;
+    color: #f0cfad;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 .collection-nav {
     display: flex;
 
