@@ -21,3 +21,40 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.fishing-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.fishing-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 70px;
+    padding: 15px 20px;
+
+    background-color: #d9b382;
+    color: #2b180e;
+
+    border: 3px solid #5c3924;
+    border-radius: 18px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
+}
+
+.fishing-button:hover {
+    background-color: #e8c99f;
+    transform: translate(-3px);
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.5);
+}
