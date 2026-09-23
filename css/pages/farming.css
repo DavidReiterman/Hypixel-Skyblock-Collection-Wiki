@@ -78,6 +78,30 @@
     background-image: url("../../assets/images/collections/farming/crops/wheat1.webp");
 }
 
+.chicken-page {
+    background-image: url("../../assets/images/collections/farming/animals/chicken1.webp");
+}
+
+.feather-page {
+    background-image: url("../../assets/images/collections/farming/animals/feather1.webp");
+}
+
+.leather-page {
+    background-image: url("../../assets/images/collections/farming/animals/leather1.webp");
+}
+
+.mutton-page {
+    background-image: url("../../assets/images/collections/farming/animals/mutton1.webp");
+}
+
+.pork-page {
+    background-image: url("../../assets/images/collections/farming/animals/pork1.webp");
+}
+
+.rabbit-page {
+    background-image: url("../../assets/images/collections/farming/animals/rabbit1.webp");
+}
+
 .farming-title {
     text-align: center;
     margin-top: 80px;
