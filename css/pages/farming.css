@@ -15,15 +15,7 @@
     border-width: 3px;
 }
 
-.image-page {
-    min-height: 100vh;
-    position: relative;
 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
 .farming-page {
     min-height: 100vh;

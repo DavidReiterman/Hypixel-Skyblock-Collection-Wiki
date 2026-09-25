@@ -3,6 +3,16 @@ body {
     padding: 0;
 }
 
+.image-page {
+    min-height: 100vh;
+    position: relative;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .account-bar {
     height: 44px;
     padding: 0 30px;
