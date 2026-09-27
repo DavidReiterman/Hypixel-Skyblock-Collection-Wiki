@@ -18,7 +18,14 @@ const collections = [
         name: "Cactus",
         category: "Farming",
         subFolder: "Crops",
-        searchTerms:[],
+        searchTerms:[
+            "cacti",
+            "cactus collection",
+            "farming cactus",
+            "desert crop",
+            "mushroom desert cactus"
+        ],
+
         traits: ["crop", "plant", "cactus", "desert", "mushroomDesert", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/cactus.html"
@@ -28,7 +35,14 @@ const collections = [
         name: "Carrot",
         category: "Farming",
         subFolder: "Crops",
-        searchTerms:[],
+        searchTerms:[
+            "carrots",
+            "carrot collection",
+            "farming carrot",
+            "golden carrot",
+            "vegetable crop"
+        ],
+
         traits: ["crop", "plant", "vegetable", "garden", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/carrot.html"
@@ -38,8 +52,15 @@ const collections = [
         name: "Cocoa Beans",
         category: "Farming",
         subFolder: "Crops",
-        searchTerms:[],
-        traits: ["crops", "plant", "cocoa", "jungle", "farming", "collection"],
+        searchTerms:[
+            "cocoa",
+            "cocoa bean",
+            "cocoa beans collection",
+            "farming cocoa",
+            "jungle cocoa"
+        ],
+
+        traits: ["crop", "plant", "cocoa", "jungle", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/cocoaBeans.html"
     },
@@ -48,7 +69,14 @@ const collections = [
         name: "Melon",
         category: "Farming",
         subFolder: "Crops",
-        searchTerms:[],
+        searchTerms:[
+            "melons",
+            "melon collection",
+            "farming melon",
+            "golden melon",
+            "melon crop"
+        ],
+
         traits: ["crop", "plant", "melon", "fruit", "garden", "farming", "collection"],
         similar: ["Pumpkin"],
         url: "collectionPages/farmingCollections/crops/melon.html"
@@ -58,7 +86,14 @@ const collections = [
         name: "Mushroom",
         category: "Farming",
         subFolder: "Crops",
-        searchTerms:[],
+        searchTerms:[
+            "mushrooms",
+            "mushroom collection",
+            "farming mushroom",
+            "fungus",
+            "mushroom desert"
+        ],
+
         traits: ["crop", "plant", "mushroom", "fungus", "mushroomDesert", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/mushroom.html"
@@ -68,7 +103,14 @@ const collections = [
         name: "Nether Wart",
         category: "Farming",
         subFolder: "Crops",
-        searchTerms:[],
+        searchTerms:[
+            "netherwart",
+            "nether wart collection",
+            "farming nether wart",
+            "nether crop",
+            "wart"
+        ],
+
         traits: ["crop", "plant", "nether", "wart", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/netherWart.html"
@@ -78,7 +120,14 @@ const collections = [
         name: "Potato",
         category: "Farming",
         subFolder: "Crops",
-        searchTerms:[],
+        searchTerms:[
+            "potatoes",
+            "potato collection",
+            "farming potato",
+            "garden potato",
+            "vegetable crop"
+        ],
+
         traits: ["crop", "plant", "vegetable", "garden", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/potato.html"
@@ -87,8 +136,16 @@ const collections = [
     {
         name: "Pumpkin",
         category: "Farming",
-        searchTerms:[],
-        traits: ["crop", "plant", "pumpin", "garden", "farming", "collection"],
+        subFolder: "Crops",
+        searchTerms:[
+            "pumpkins",
+            "pumpkin collection",
+            "farming pumpkin",
+            "garden pumpkin",
+            "pumpkin crop"
+        ],
+
+        traits: ["crop", "plant", "pumpkin", "garden", "farming", "collection"],
         similar: ["Melon"],
         url: "collectionPages/farmingCollections/crops/pumpkin.html"
     },
@@ -97,8 +154,15 @@ const collections = [
         name: "Seeds",
         category: "Farming",
         subFolder: "Crops",
-        searchTerms:[],
-        traits: ["crop", "plant", "wheat", "plant", "farming", "collection"],
+        searchTerms:[
+            "seed",
+            "wheat seeds",
+            "seeds collection",
+            "farming seeds",
+            "crop seeds"
+        ],
+
+        traits: ["crop", "plant", "wheat", "farming", "collection"],
         similar: ["Wheat"],
         url: "collectionPages/farmingCollections/crops/seeds.html"
     },
@@ -107,7 +171,14 @@ const collections = [
         name: "Sugar Cane",
         category: "Farming",
         subFolder: "Crops",
-        searchTerms:[],
+        searchTerms:[
+            "sugarcane",
+            "sugar cane collection",
+            "farming sugar cane",
+            "cane",
+            "sugar crop"
+        ],
+
         traits: ["crop", "plant", "sugar", "cane", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/sugarCane.html"
@@ -117,7 +188,14 @@ const collections = [
         name: "Wheat",
         category: "Farming",
         subFolder: "Crops",
-        searchTerms:[],
+        searchTerms:[
+            "wheat collection",
+            "farming wheat",
+            "grain",
+            "wheat crop",
+            "garden wheat"
+        ],
+
         traits: ["crop", "plant", "grain", "seed", "wheat", "garden", "farming", "collection"],
         similar: ["Seeds"],
         url: "collectionPages/farmingCollections/crops/wheat.html"
@@ -129,7 +207,14 @@ const collections = [
         name: "Chicken",
         category: "Farming",
         subFolder: "Animals",
-        searchTerms:[],
+        searchTerms:[
+            "chickens",
+            "chicken collection",
+            "farming chicken",
+            "farm animal",
+            "chicken mob"
+        ],
+
         traits: ["animal", "mob", "chicken", "farmAnimal", "farming"],
         similar: ["Feather"],
         url: "collectionPages/farmingCollections/animals/chicken.html"
@@ -139,7 +224,14 @@ const collections = [
         name: "Feather",
         category: "Farming",
         subFolder: "Animals",
-        searchTerms:[],
+        searchTerms:[
+            "feathers",
+            "feather collection",
+            "farming feather",
+            "chicken drop",
+            "chicken feather"
+        ],
+
         traits: ["animalDrop", "mobDrop", "chicken", "feather", "farming"],
         similar: ["Chicken"],
         url: "collectionPages/farmingCollections/animals/feather.html"
@@ -149,7 +241,14 @@ const collections = [
         name: "Leather",
         category: "Farming",
         subFolder: "Animals",
-        searchTerms:[],
+        searchTerms:[
+            "leather collection",
+            "farming leather",
+            "cow drop",
+            "cow leather",
+            "animal drop"
+        ],
+
         traits: ["animalDrop", "mobDrop", "cow", "leather", "farming"],
         similar: [],
         url: "collectionPages/farmingCollections/animals/leather.html"
@@ -159,7 +258,14 @@ const collections = [
         name: "Mutton",
         category: "Farming",
         subFolder: "Animals",
-        searchTerms:[],
+        searchTerms:[
+            "mutton collection",
+            "farming mutton",
+            "sheep drop",
+            "sheep mutton",
+            "animal drop"
+        ],
+
         traits: ["animalDrop", "mobDrop", "sheep", "mutton", "farming"],
         similar: [],
         url: "collectionPages/farmingCollections/animals/mutton.html"
@@ -169,7 +275,14 @@ const collections = [
         name: "Pork",
         category: "Farming",
         subFolder: "Animals",
-        searchTerms:[],
+        searchTerms:[
+            "pork collection",
+            "farming pork",
+            "pig drop",
+            "pig pork",
+            "animal drop"
+        ],
+
         traits: ["animalDrop", "mobDrop", "pig", "pork", "farming"],
         similar: [],
         url: "collectionPages/farmingCollections/animals/pork.html"
@@ -179,7 +292,14 @@ const collections = [
         name: "Rabbit",
         category: "Farming",
         subFolder: "Animals",
-        searchTerms:[],
+        searchTerms:[
+            "rabbits",
+            "rabbit collection",
+            "farming rabbit",
+            "farm animal",
+            "rabbit mob"
+        ],
+
         traits: ["animal", "mob", "rabbit", "farmAnimal", "farming"],
         similar: [],
         url: "collectionPages/farmingCollections/animals/rabbit.html"
@@ -191,7 +311,10 @@ const collections = [
         name: "Blaze Rod",
         category: "Combat",
         subFolder: "Nether",
-        searchTerms:[],
+        searchTerms:[
+
+        ],
+
         traits: ["blaze", "mobDrop", "nether", "crimsonIsle", "combat", "fire"],
         similar: ["Chili Pepper"],
         url: "collectionPages/combatCollections/combat/nether/blazeRod.html"
@@ -201,7 +324,10 @@ const collections = [
         name: "Chili Pepper",
         category: "Combat",
         subFolder: "Nether",
-        searchTerms:[],
+        searchTerms:[
+
+        ],
+
         traits: ["pepper", "chili", "nether", "crimsonIsle", "combat"],
         similar: ["Blaze Rod"],
         url: "collectionPages/combatCollections/combat/nether/chiliPepper.html"
@@ -211,7 +337,10 @@ const collections = [
         name: "Ghast Tear",
         category: "Combat",
         subFolder: "Nether",
-        searchTerms:[],
+        searchTerms:[
+
+        ],
+
         traits: ["ghast", "mobDrop", "nether", "crimsonIsle", "combat"],
         similar: [],
         url: "collectionPages/combatCollections/combat/nether/ghastTear.html"
@@ -221,7 +350,10 @@ const collections = [
         name: "Magma Cream",
         category: "Combat",
         subFolder: "Nether",
-        searchTerms:[],
+        searchTerms:[
+
+        ],
+
         traits: ["magmaCube", "mobDrop", "nether", "crimsonIsle", "combat", "lava"],
         similar: [],
         url: "collectionPages/combatCollections/combat/nether/magmaCream.html"
@@ -231,7 +363,10 @@ const collections = [
         name: "Bone",
         category: "Combat",
         subFolder: "Overworld",
-        searchTerms:[],
+        searchTerms:[
+
+        ],
+
         traits: ["skeleton", "mobDrop", "combat", "overworld"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/bone.html"
@@ -241,7 +376,10 @@ const collections = [
         name: "Ender Pearl",
         category: "Combat",
         subFolder: "Overworld",
-        searchTerms:[],
+        searchTerms:[
+
+        ],
+
         traits: ["enderman", "mobDrop", "end", "combat", "pearl"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/enderPearl.html"
@@ -251,7 +389,10 @@ const collections = [
         name: "Gunpowder",
         category: "Combat",
         subFolder: "Overworld",
-        searchTerms:[],
+        searchTerms:[
+
+        ],
+
         traits: ["creeper", "mobDrop", "combat", "explosive"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/gunpowder.html"
@@ -261,7 +402,10 @@ const collections = [
         name: "Rotten Flesh",
         category: "Combat",
         subFolder: "Overworld",
-        searchTerms:[],
+        searchTerms:[
+
+        ],
+
         traits: ["zombie", "mobDrop", "combat", "undead"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/rottenFlesh.html"
@@ -271,7 +415,10 @@ const collections = [
         name: "Slime Ball",
         category: "Combat",
         subFolder: "Overworld",
-        searchTerms:[],
+        searchTerms:[
+
+        ],
+
         traits: ["slime", "mobDrop", "combat"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/slimeball.html"
@@ -281,7 +428,10 @@ const collections = [
         name: "Spider Eye",
         category: "Combat",
         subFolder: "Overworld",
-        searchTerms:[],
+        searchTerms:[
+
+        ],
+
         traits: ["spider", "mobDrop", "combat", "arachnid"],
         similar: ["String"],
         url: "collectionPages/combatCollections/combat/overworld/spiderEye.html"
@@ -291,7 +441,10 @@ const collections = [
         name: "String",
         category: "Combat",
         subFolder: "Overworld",
-        searchTerms:[],
+        searchTerms:[
+
+        ],
+
         traits: ["spider", "mobDrop", "combat", "arachnid"],
         similar: ["Spider Eye"],
         url: "collectionPages/combatCollections/combat/overworld/string.html"
@@ -312,15 +465,7 @@ const collections = [
             "catacombs boss"
         ],
 
-        traits: [
-            "dungeon", 
-            "floor1", 
-            "catacombs", 
-            "clown", 
-            "undead", 
-            "mage"
-        ],
-
+        traits: ["dungeon", "floor1", "catacombs", "clown", "undead", "mage"],
         similar: ["Scarf"],
         url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
     },
@@ -338,14 +483,7 @@ const collections = [
             "catacombs boss"
         ],
 
-        traits: [
-            "dungeon", 
-            "catacombs",
-            "necromancer",
-            "undead",
-            "mage"
-        ],
-
+        traits: ["dungeon", "catacombs", "necromancer", "undead", "mage"],
         similar: ["Bonzo", "The Professor"],
         url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
     },
@@ -364,14 +502,7 @@ const collections = [
             "catacombs boss"
         ],
 
-        traits: [
-            "dungeon", 
-            "catacombs",
-            "guardian",
-            "mage",
-            "water"
-        ],
-
+        traits: ["dungeon", "catacombs", "guardian", "mage", "water"],
         similar: ["Scarf", "Thorn"],
         url: "collectionPages/dungeonBossCollections/dungeonBoss/theProfessor.html"
     },
@@ -389,14 +520,7 @@ const collections = [
             "catacombs boss"
         ],
 
-        traits: [
-            "dungeon", 
-            "catacombs",
-            "spirit",
-            "animals",
-            "bow"
-        ],
-
+        traits: ["dungeon", "catacombs", "spirit", "animals", "bow"],
         similar: ["The Professor", "Livid"],
         url: "collectionPages/dungeonBossCollections/dungeonBoss/thorn.html"
     },
@@ -414,14 +538,7 @@ const collections = [
             "catacombs boss"
         ],
 
-        traits: [
-            "dungeon", 
-            "catacombs",
-            "assassin",
-            "clone",
-            "shadow"
-        ],
-
+        traits: ["dungeon", "catacombs", "assassin", "clone", "shadow"],
         similar: ["Thorn", "Sadan"],
         url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
     },
@@ -438,13 +555,7 @@ const collections = [
             "catacombs floor 6",
             "catacombs 6"
         ],
-        traits: [
-            "dungeon", 
-            "catacombs",
-            "necromancer",
-            "giant",
-            "undead"
-        ],
+        traits: ["dungeon", "catacombs","necromancer", "giant", "undead"],
         similar: ["Livid", "Necron"],
         url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
     },
@@ -464,13 +575,7 @@ const collections = [
             "final dungeon boss"
         ],
 
-        traits: [
-            "dungeon", 
-            "catacombs",
-            "wither",
-            "finalBoss",
-            "lateGame"
-        ],
+        traits: ["dungeon", "catacombs", "wither", "finalBoss", "lateGame"],
         similar: ["Sadan"],
         url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
     },
@@ -487,14 +592,7 @@ const collections = [
             "notDungeon"
         ],
 
-        traits: [
-            "notDungeon", 
-            "crimsonIsle",
-            "nether",
-            "lava",
-            "boss"
-        ],
-
+        traits: ["notDungeon", "crimsonIsle", "nether", "lava", "boss"],
         similar: [],
         url: "collectionPages/dungeonBossCollections/kuudra.html"
     },
@@ -505,6 +603,10 @@ const collections = [
         name: "Ink Sack",
         category: "Fishing",
         subFolder: "fish",
+        searchTerms: [
+
+        ],
+        
         traits: ["darkColor", "water", "animal"],
         similar: [""],
         url: "collectionPages/fishingCollections/fish/inkSack.html"
@@ -514,6 +616,10 @@ const collections = [
         name: "Magma Fish",
         category: "Fishing",
         subFolder: "fish",
+                searchTerms: [
+
+        ],
+        
         traits: ["darkColor", "lava", "fish"],
         similar: [""],
         url: "collectionPages/fishingCollections/fish/magmafish.html"
@@ -523,6 +629,10 @@ const collections = [
         name: "Pufferfish",
         category: "Fishing",
         subFolder: "fish",
+        searchTerms: [
+
+        ],
+
         traits: ["lightColor", "water", "fish"],
         similar: [""],
         url: "collectionPages/fishingCollections/fish/pufferfish.html"
@@ -532,6 +642,10 @@ const collections = [
         name: "Raw Cod",
         category: "Fishing",
         subFolder: "fish",
+        searchTerms: [
+
+        ],
+        
         traits: ["lightColor", "water", "fish"],
         similar: [""],
         url: "collectionPages/fishingCollections/fish/rawCod.html"
@@ -541,6 +655,10 @@ const collections = [
         name: "Raw Salmon",
         category: "Fishing",
         subFolder: "fish",
+        searchTerms: [
+
+        ],
+        
         traits: ["lightColor", "water", "fish"],
         similar: [""],
         url: "collectionPages/fishingCollections/fish/rawSalmon.html"
@@ -550,6 +668,10 @@ const collections = [
         name: "Tropical Fish",
         category: "Fishing",
         subFolder: "fish",
+        searchTerms: [
+
+        ],
+        
         traits: ["lightColor", "water", "fish"],
         similar: [""],
         url: "collectionPages/fishingCollections/fish/tropicalFish.html"
@@ -561,6 +683,10 @@ const collections = [
         name: "Clay Ball",
         category: "Fishing",
         subFolder: "items",
+        searchTerms: [
+
+        ],
+        
         traits: ["dead", "lightColor"],
         similar: [""],
         url: "collectionPages/fishingCollections/items/clayBall.html"
@@ -570,6 +696,10 @@ const collections = [
         name: "Lily Pad",
         category: "Fishing",
         subFolder: "items",
+        searchTerms: [
+
+        ],
+        
         traits: ["living", "lightColor"],
         similar: [""],
         url: "collectionPages/fishingCollections/items/lilyPad.html"
@@ -579,6 +709,10 @@ const collections = [
         name: "Lotus",
         category: "Fishing",
         subFolder: "items",
+        searchTerms: [
+
+        ],
+        
         traits: ["living", "lightColor"],
         similar: [""],
         url: "collectionPages/fishingCollections/items/lotus.html"
@@ -588,6 +722,10 @@ const collections = [
         name: "Prismarine Crystals",
         category: "Fishing",
         subFolder: "fish",
+        searchTerms: [
+
+        ],
+        
         traits: ["dead", "lightColor", "prismarine"],
         similar: ["Prismarine Shards"],
         url: "collectionPages/fishingCollections/items/prismarineCrystals.html"
@@ -597,6 +735,10 @@ const collections = [
         name: "Prismarine Shards",
         category: "Fishing",
         subFolder: "items",
+        searchTerms: [
+
+        ],
+        
         traits: ["dead", "lightColor", "prismarine"],
         similar: ["Prismarine Crystals"],
         url: "collectionPages/fishingCollections/items/prismarineShard.html"
@@ -606,6 +748,10 @@ const collections = [
         name: "Sponge",
         category: "Fishing",
         subFolder: "items",
+        searchTerms: [
+
+        ],
+        
         traits: ["living", "lightColor"],
         similar: [""],
         url: "collectionPages/fishingCollections/items/sponge.html"
@@ -617,78 +763,114 @@ const collections = [
         name: "Acacia Log",
         category: "Foraging",
         subFolder: "logs",
+        searchTerms: [
+
+        ],
+        
         traits: ["brightLog", "brightBiome"],
         similar: [""],
         url: "collectionPages/foragingCollections/logs/acacia.html"
     },
     
     {
-        name: "Birch",
+        name: "Birch Log",
         category: "Foraging",
         subFolder: "logs",
+        searchTerms: [
+
+        ],
+        
         traits: ["bright"],
         similar: [""],
         url: "collectionPages/foragingCollections/logs/birch.html"
     },
 
     {
-        name: "darkOak",
+        name: "Dark Oak Log",
         category: "Foraging",
         subFolder: "logs",
+        searchTerms: [
+
+        ],
+        
         traits: ["dark"],
         similar: [""],
         url: "collectionPages/foragingCollections/logs/darkOak.html"
     },
 
     {
-        name: "Fig",
+        name: "Fig Log",
         category: "Foraging",
         subFolder: "logs",
+        searchTerms: [
+
+        ],
+        
         traits: ["light"],
         similar: [""],
         url: "collectionPages/foragingCollections/logs/fig.html"
     },
 
     {
-        name: "Helix",
+        name: "Helix Log",
         category: "Foraging",
         subFolder: "logs",
+        searchTerms: [
+
+        ],
+        
         traits: ["dark"],
         similar: [""],
         url: "collectionPages/foragingCollections/logs/helix.html"
     },
 
     {
-        name: "Jungle",
+        name: "Jungle Log",
         category: "Foraging",
         subFolder: "logs",
+        searchTerms: [
+
+        ],
+        
         traits: ["light"],
         similar: [""],
         url: "collectionPages/foragingCollections/logs/jungle.html"
     },
 
     {
-        name: "Mangrove",
+        name: "Mangrove Log",
         category: "Foraging",
         subFolder: "logs",
+        searchTerms: [
+
+        ],
+        
         traits: ["dark"],
         similar: [""],
         url: "collectionPages/foragingCollections/logs/mangrove.html"
     },
 
     {
-        name: "Oak",
+        name: "Oak Log",
         category: "Foraging",
         subFolder: "logs",
+        searchTerms: [
+
+        ],
+        
         traits: ["", ""],
         similar: [""],
         url: "collectionPages/foragingCollections/logs/oak.html"
     },
 
     {
-        name: "Spruce",
+        name: "Spruce Log",
         category: "Foraging",
         subFolder: "logs",
+        searchTerms: [
+
+        ],
+        
         traits: ["dark"],
         similar: [""],
         url: "collectionPages/foragingCollections/logs/spruce.html"
@@ -700,6 +882,10 @@ const collections = [
         name: "Honeycomb",
         category: "Foraging",
         subFolder: "plants",
+        searchTerms: [
+
+        ],
+        
         traits: ["bright", "nonePlant"],
         similar: [""],
         url: "collectionPages/foragingCollections/plants/honeycomb.html"
@@ -709,6 +895,10 @@ const collections = [
         name: "Lushlilac",
         category: "Foraging",
         subFolder: "plants",
+        searchTerms: [
+
+        ],
+        
         traits: ["plant"],
         similar: [""],
         url: "collectionPages/foragingCollections/plants/lushlilac.html"
@@ -718,6 +908,10 @@ const collections = [
         name: "Ruby Veilshroom",
         category: "Foraging",
         subFolder: "plants",
+        searchTerms: [
+
+        ],
+        
         traits: ["plant"],
         similar: [""],
         url: "collectionPages/foragingCollections/plants/rubyVeilshroom.html"
@@ -727,6 +921,10 @@ const collections = [
         name: "Sea Lumis",
         category: "Foraging",
         subFolder: "plants",
+        searchTerms: [
+
+        ],
+        
         traits: ["plant"],
         similar: [""],
         url: "collectionPages/foragingCollections/plants/seaLumis.html"
@@ -736,6 +934,10 @@ const collections = [
         name: "Tender Wood",
         category: "Foraging",
         subFolder: "plants",
+        searchTerms: [
+
+        ],
+        
         traits: ["plant"],
         similar: [""],
         url: "collectionPages/foragingCollections/plants/tenderWood.html"
@@ -745,6 +947,10 @@ const collections = [
         name: "Vinesap",
         category: "Foraging",
         subFolder: "plants",
+        searchTerms: [
+
+        ],
+        
         traits: ["plant"],
         similar: [""],
         url: "collectionPages/foragingCollections/plants/vinesap.html"
@@ -755,7 +961,11 @@ const collections = [
     {
         name: "Cobblestone",
         category: "Mining",
-        subFolder: "Blocks",
+        subFolder: "blocks",
+        searchTerms: [
+
+        ],
+        
         traits: ["stone", "gray"],
         similar: ["Hard Stone"],
         url: "collectionPages/miningCollections/blocks/cobblestone.html"
@@ -765,6 +975,10 @@ const collections = [
         name: "Gravel",
         category: "Mining",
         subFolder: "blocks",
+        searchTerms: [
+
+        ],
+        
         traits: ["gray", "canFall"],
         similar: ["Sand", "Red Sand"],
         url: "collectionPages/miningCollections/blocks/gravel.html"
@@ -774,6 +988,10 @@ const collections = [
         name: "Hard Stone",
         category: "Mining",
         subFolder: "blocks",
+        searchTerms: [
+
+        ],
+        
         traits: ["gray", "stone"],
         similar: ["Cobblestone"],
         url: "collectionPages/miningCollections/blocks/hardStone.html"
@@ -783,6 +1001,10 @@ const collections = [
         name: "Ice",
         category: "Mining",
         subFolder: "blocks",
+        searchTerms: [
+
+        ],
+        
         traits: [],
         similar: [],
         url: "collectionPages/miningCollections/blocks/ice.html"
@@ -792,6 +1014,10 @@ const collections = [
         name: "Mycelium",
         category: "Mining",
         subFolder: "blocks",
+        searchTerms: [
+
+        ],
+        
         traits: [],
         similar: [],
         url: "collectionPages/miningCollections/blocks/mycelium.html"
@@ -801,6 +1027,10 @@ const collections = [
         name: "Obsidian",
         category: "Mining",
         subFolder: "blocks",
+        searchTerms: [
+
+        ],
+        
         traits: [],
         similar: [],
         url: "collectionPages/miningCollections/blocks/obsidian.html"
@@ -810,6 +1040,10 @@ const collections = [
         name: "Red Sand",
         category: "Mining",
         subFolder: "blocks",
+        searchTerms: [
+
+        ],
+        
         traits: ["canFall", "sand"],
         similar: ["Sand", "Gravel"],
         url: "collectionPages/miningCollections/blocks/redSand.html"
@@ -819,6 +1053,10 @@ const collections = [
         name: "Sand",
         category: "Mining",
         subFolder: "blocks",
+        searchTerms: [
+
+        ],
+        
         traits: ["canFall", "sand"],
         similar: ["Red Sand", "Gravel"],
         url: "collectionPages/miningCollections/blocks/sand.html"
@@ -830,6 +1068,10 @@ const collections = [
         name: "Glowstone Dust",
         category: "Mining",
         subFolder: "dust",
+        searchTerms: [
+
+        ],
+        
         traits: [],
         similar: ["Redstone Dust", "Sulphur"],
         url: "collectionPages/miningCollections/dust/glowstone.html"
@@ -839,6 +1081,10 @@ const collections = [
         name: "Redstone Dust",
         category: "Mining",
         subFolder: "dust",
+        searchTerms: [
+
+        ],
+        
         traits: [],
         similar: ["Glowstone Dust", "Sulphur"],
         url: "collectionPages/miningCollections/dust/redstone.html"
@@ -848,6 +1094,10 @@ const collections = [
         name: "Sulphur",
         category: "Mining",
         subFolder: "dust",
+        searchTerms: [
+
+        ],
+        
         traits: [],
         similar: ["Redstone Dust", "Glowstone Dust"],
         url: "collectionPages/miningCollections//.html"
@@ -859,6 +1109,10 @@ const collections = [
         name: "Gold Ingot",
         category: "Mining",
         subFolder: "ingots",
+        searchTerms: [
+
+        ],
+        
         traits: [],
         similar: ["Iron Ingot"],
         url: "collectionPages/miningCollections/ingots/gold.html"
@@ -868,6 +1122,10 @@ const collections = [
         name: "Iron Ingot",
         category: "Mining",
         subFolder: "ingots",
+        searchTerms: [
+
+        ],
+        
         traits: [],
         similar: ["Gold Ingot"],
         url: "collectionPages/miningCollections/ingots/iron.html"
@@ -879,6 +1137,10 @@ const collections = [
         name: "Coal",
         category: "Mining",
         subFolder: "stones",
+        searchTerms: [
+
+        ],
+        
         traits: ["dark", "stone", "overworld"],
         similar: [],
         url: "collectionPages/miningCollections/stones/coal.html"
@@ -888,6 +1150,10 @@ const collections = [
         name: "Diamond",
         category: "Mining",
         subFolder: "stones",
+        searchTerms: [
+
+        ],
+        
         traits: ["bright", "stone", "overworld"],
         similar: [],
         url: "collectionPages/miningCollections/stones/diamond.html"
@@ -897,6 +1163,10 @@ const collections = [
         name: "Emerald",
         category: "Mining",
         subFolder: "stones",
+        searchTerms: [
+
+        ],
+        
         traits: ["bright", "stone", "overworld"],
         similar: [],
         url: "collectionPages/miningCollections/stones/emerald.html"
@@ -906,6 +1176,10 @@ const collections = [
         name: "Gemstone",
         category: "Mining",
         subFolder: "stones",
+        searchTerms: [
+
+        ],
+        
         traits: ["bright", "stone", "dwarvenMine"],
         similar: [],
         url: "collectionPages/miningCollections/stones/gemstone.html"
@@ -915,6 +1189,10 @@ const collections = [
         name: "Lapis Lazuli",
         category: "Mining",
         subFolder: "stones",
+        searchTerms: [
+
+        ],
+        
         traits: ["bright", "stone", "overworld"],
         similar: [],
         url: "collectionPages/miningCollections/stones/lapisLazuli.html"
@@ -924,6 +1202,10 @@ const collections = [
         name: "Mithril",
         category: "Mining",
         subFolder: "stones",
+        searchTerms: [
+
+        ],
+        
         traits: ["dark", "stone", "dwarvenMine"],
         similar: [],
         url: "collectionPages/miningCollections/stones/mithril.html"
@@ -933,6 +1215,10 @@ const collections = [
         name: "Tungsten",
         category: "Mining",
         subFolder: "stones",
+        searchTerms: [
+
+        ],
+        
         traits: ["dark", "stone", "dwarvenMine"],
         similar: [],
         url: "collectionPages/miningCollections/stones/tungsten.html"
@@ -942,6 +1228,10 @@ const collections = [
         name: "Umber",
         category: "Mining",
         subFolder: "stones",
+        searchTerms: [
+
+        ],
+        
         traits: ["dark", "stone", "dwarvenMine"],
         similar: [],
         url: "collectionPages/miningCollections/stones/umber.html"
@@ -953,6 +1243,10 @@ const collections = [
         name: "Agaricus Cap",
         category: "Rift",
         subFolder: "objects",
+        searchTerms: [
+
+        ],
+        
         traits: ["earlyRift", "rift"],
         similar: [],
         url: "collectionPages/riftCollections/objects/agaricusCap.html"
@@ -962,6 +1256,10 @@ const collections = [
         name: "Caducous Stem",
         category: "Rift",
         subFolder: "objects",
+        searchTerms: [
+
+        ],
+        
         traits: ["plant", "rift", "earlyRift"],
         similar: [""],
         url: "collectionPages/riftCollections/objects/caducousStem.html"
@@ -971,6 +1269,10 @@ const collections = [
         name: "Half Eaten Carrot",
         category: "Rift",
         subFolder: "objects",
+        searchTerms: [
+
+        ],
+        
         traits: ["plant", "rift"],
         similar: [""],
         url: "collectionPages/riftCollections/objects/halfEatenCarrot.html"
@@ -980,8 +1282,12 @@ const collections = [
         name: "Hemovibe",
         category: "Rift",
         subFolder: "objects",
-        traits: ["", ""],
-        similar: [""],
+        searchTerms: [
+
+        ],
+        
+        traits: [],
+        similar: [],
         url: "collectionPages/miningCollections//.html"
     },
 
@@ -989,6 +1295,10 @@ const collections = [
         name: "Living Metal Heart",
         category: "Rift",
         subFolder: "objects",
+        searchTerms: [
+
+        ],
+        
         traits: ["earlyRift", "rift", "living"],
         similar: [],
         url: "collectionPages/riftCollections/objects/livingMetalHeart.html"
@@ -998,6 +1308,10 @@ const collections = [
         name: "Timite",
         category: "Rift",
         subFolder: "objects",
+        searchTerms: [
+
+        ],
+        
         traits: ["lateRift", "rift"],
         similar: [],
         url: "collectionPages/riftCollections/objects/timite.html"
@@ -1007,6 +1321,10 @@ const collections = [
         name: "Wilted Berberis",
         category: "Rift",
         subFolder: "objects",
+        searchTerms: [
+
+        ],
+        
         traits: ["earlyRift", "rift", "plant"],
         similar: [],
         url: "collectionPages/riftCollections/objects/wiltedBerberis.html"
@@ -1035,7 +1353,8 @@ searchInput.addEventListener("input", function () {
             const searchableText = [
                 collection.name,
                 collection.category,
-                collection.subCategory,
+                collection.searchTerms,
+                collection.subFolder,
                 collection.traits,
                 collection.similar
             ]
@@ -1105,11 +1424,18 @@ searchInput.addEventListener("keydown", function(event) {
             .toLowerCase()
             .trim();
 
-        const match = collections.find(collection =>
-            collection.name
-                .toLowerCase()
-                .startsWith(searchText)
-        );
+        const match = collections.find(collection => {
+            const searchableText = [
+                collection.name,
+                collection.category,
+                collection.subFolder,
+                collection.searchTerms,
+                collection.traits,
+                collection.similar
+            ]
+                .join(" ")
+                .toLowerCase();
+        });
 
         if (match) {
             window.location.href = match.url;
