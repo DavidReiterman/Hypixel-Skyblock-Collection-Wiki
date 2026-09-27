@@ -109,7 +109,8 @@ const collections = [
         url: "collectionPages/farmingCollections/crops/wheat.html"
     },
 
-    // Pages for farming animals 
+    // Pages for farming animals
+
     {
         name: "Chicken",
         category: "Farming",
@@ -165,11 +166,12 @@ const collections = [
     },
 
     // Combat nether pages
+
     {
         name: "Blaze Rod",
         category: "Combat",
         subFolder: "Nether",
-        traits: ["fire"],
+        traits: ["blaze", "mobDrop", "nether", "crimsonIsle", "combat", "fire"],
         similar: ["Chili Pepper"],
         url: "collectionPages/combatCollections/combat/nether/blazeRod.html"
     },
@@ -178,7 +180,7 @@ const collections = [
         name: "Chili Pepper",
         category: "Combat",
         subFolder: "Nether",
-        traits: ["fire"],
+        traits: ["pepper", "chili", "nether", "crimsonIsle", "combat"],
         similar: ["Blaze Rod"],
         url: "collectionPages/combatCollections/combat/nether/chiliPepper.html"
     },
@@ -187,7 +189,7 @@ const collections = [
         name: "Ghast Tear",
         category: "Combat",
         subFolder: "Nether",
-        traits: ["fire", "flying"],
+        traits: ["ghast", "mobDrop", "nether", "crimsonIsle", "combat"],
         similar: [],
         url: "collectionPages/combatCollections/combat/nether/ghastTear.html"
     },
@@ -196,7 +198,7 @@ const collections = [
         name: "Magma Cream",
         category: "Combat",
         subFolder: "Nether",
-        traits: ["fire"],
+        traits: ["magmaCube", "mobDrop", "nether", "crimsonIsle", "combat", "lava"],
         similar: [],
         url: "collectionPages/combatCollections/combat/nether/magmaCream.html"
     },
@@ -205,7 +207,7 @@ const collections = [
         name: "Bone",
         category: "Combat",
         subFolder: "Overworld",
-        traits: ["common", "standingMob", "lightColor"],
+        traits: ["skeleton", "mobDrop", "combat", "overworld"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/bone.html"
     },
@@ -214,7 +216,7 @@ const collections = [
         name: "Ender Pearl",
         category: "Combat",
         subFolder: "Overworld",
-        traits: ["rare", "standingMob", "darkColor"],
+        traits: ["enderman", "mobDrop", "end", "combat", "pearl"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/enderPearl.html"
     },
@@ -223,7 +225,7 @@ const collections = [
         name: "Gunpowder",
         category: "Combat",
         subFolder: "Overworld",
-        traits: ["common", "standingMob", "darkColor"],
+        traits: ["creeper", "mobDrop", "combat", "explosive"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/gunpowder.html"
     },
@@ -232,7 +234,7 @@ const collections = [
         name: "Rotten Flesh",
         category: "Combat",
         subFolder: "Overworld",
-        traits: ["common", "standingMob", "darkColor"],
+        traits: ["zombie", "mobDrop", "combat", "undead"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/rottenFlesh.html"
     },
@@ -241,7 +243,7 @@ const collections = [
         name: "Slime Ball",
         category: "Combat",
         subFolder: "Overworld",
-        traits: ["rare", "lowMob", "lightColor"],
+        traits: ["slime", "mobDrop", "combat"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/slimeball.html"
     },
@@ -250,7 +252,7 @@ const collections = [
         name: "Spider Eye",
         category: "Combat",
         subFolder: "Overworld",
-        traits: ["common", "lowMob", "darkColor"],
+        traits: ["spider", "mobDrop", "combat", "arachnid"],
         similar: ["String"],
         url: "collectionPages/combatCollections/combat/overworld/spiderEye.html"
     },
@@ -259,19 +261,12 @@ const collections = [
         name: "String",
         category: "Combat",
         subFolder: "Overworld",
-        traits: ["common", "lowMob", "darkColor"],
+        traits: ["spider", "mobDrop", "combat", "arachnid"],
         similar: ["Spider Eye"],
         url: "collectionPages/combatCollections/combat/overworld/string.html"
     },
 
-    {
-        name: "",
-        category: "Dungeon Boss",
-        subFolder: "dungeonBoss",
-        traits: ["", "", ""],
-        similar: [""],
-        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
-    },
+    // Dungeon Boss Pages
 
     {
         name: "Bonzo",
