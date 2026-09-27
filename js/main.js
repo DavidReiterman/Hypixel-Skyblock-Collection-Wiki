@@ -9,12 +9,16 @@ const collections = [
         traits = traits of item to make search results more specified
         similar = similar items reserved for things such as chicken and feathers 
         to improve the related searches
+
+        Traits covers terms users can search to find the "name" or item.
+        Ex: If a user searches plant, cactus will show up
     */
 
     {
         name: "Cactus",
         category: "Farming",
         subFolder: "Crops",
+        searchTerms:[],
         traits: ["crop", "plant", "cactus", "desert", "mushroomDesert", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/cactus.html"
@@ -24,6 +28,7 @@ const collections = [
         name: "Carrot",
         category: "Farming",
         subFolder: "Crops",
+        searchTerms:[],
         traits: ["crop", "plant", "vegetable", "garden", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/carrot.html"
@@ -33,6 +38,7 @@ const collections = [
         name: "Cocoa Beans",
         category: "Farming",
         subFolder: "Crops",
+        searchTerms:[],
         traits: ["crops", "plant", "cocoa", "jungle", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/cocoaBeans.html"
@@ -42,6 +48,7 @@ const collections = [
         name: "Melon",
         category: "Farming",
         subFolder: "Crops",
+        searchTerms:[],
         traits: ["crop", "plant", "melon", "fruit", "garden", "farming", "collection"],
         similar: ["Pumpkin"],
         url: "collectionPages/farmingCollections/crops/melon.html"
@@ -51,6 +58,7 @@ const collections = [
         name: "Mushroom",
         category: "Farming",
         subFolder: "Crops",
+        searchTerms:[],
         traits: ["crop", "plant", "mushroom", "fungus", "mushroomDesert", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/mushroom.html"
@@ -60,6 +68,7 @@ const collections = [
         name: "Nether Wart",
         category: "Farming",
         subFolder: "Crops",
+        searchTerms:[],
         traits: ["crop", "plant", "nether", "wart", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/netherWart.html"
@@ -69,6 +78,7 @@ const collections = [
         name: "Potato",
         category: "Farming",
         subFolder: "Crops",
+        searchTerms:[],
         traits: ["crop", "plant", "vegetable", "garden", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/potato.html"
@@ -77,6 +87,7 @@ const collections = [
     {
         name: "Pumpkin",
         category: "Farming",
+        searchTerms:[],
         traits: ["crop", "plant", "pumpin", "garden", "farming", "collection"],
         similar: ["Melon"],
         url: "collectionPages/farmingCollections/crops/pumpkin.html"
@@ -86,6 +97,7 @@ const collections = [
         name: "Seeds",
         category: "Farming",
         subFolder: "Crops",
+        searchTerms:[],
         traits: ["crop", "plant", "wheat", "plant", "farming", "collection"],
         similar: ["Wheat"],
         url: "collectionPages/farmingCollections/crops/seeds.html"
@@ -95,6 +107,7 @@ const collections = [
         name: "Sugar Cane",
         category: "Farming",
         subFolder: "Crops",
+        searchTerms:[],
         traits: ["crop", "plant", "sugar", "cane", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/sugarCane.html"
@@ -104,6 +117,7 @@ const collections = [
         name: "Wheat",
         category: "Farming",
         subFolder: "Crops",
+        searchTerms:[],
         traits: ["crop", "plant", "grain", "seed", "wheat", "garden", "farming", "collection"],
         similar: ["Seeds"],
         url: "collectionPages/farmingCollections/crops/wheat.html"
@@ -115,6 +129,7 @@ const collections = [
         name: "Chicken",
         category: "Farming",
         subFolder: "Animals",
+        searchTerms:[],
         traits: ["animal", "mob", "chicken", "farmAnimal", "farming"],
         similar: ["Feather"],
         url: "collectionPages/farmingCollections/animals/chicken.html"
@@ -124,6 +139,7 @@ const collections = [
         name: "Feather",
         category: "Farming",
         subFolder: "Animals",
+        searchTerms:[],
         traits: ["animalDrop", "mobDrop", "chicken", "feather", "farming"],
         similar: ["Chicken"],
         url: "collectionPages/farmingCollections/animals/feather.html"
@@ -133,6 +149,7 @@ const collections = [
         name: "Leather",
         category: "Farming",
         subFolder: "Animals",
+        searchTerms:[],
         traits: ["animalDrop", "mobDrop", "cow", "leather", "farming"],
         similar: [],
         url: "collectionPages/farmingCollections/animals/leather.html"
@@ -142,6 +159,7 @@ const collections = [
         name: "Mutton",
         category: "Farming",
         subFolder: "Animals",
+        searchTerms:[],
         traits: ["animalDrop", "mobDrop", "sheep", "mutton", "farming"],
         similar: [],
         url: "collectionPages/farmingCollections/animals/mutton.html"
@@ -151,6 +169,7 @@ const collections = [
         name: "Pork",
         category: "Farming",
         subFolder: "Animals",
+        searchTerms:[],
         traits: ["animalDrop", "mobDrop", "pig", "pork", "farming"],
         similar: [],
         url: "collectionPages/farmingCollections/animals/pork.html"
@@ -160,6 +179,7 @@ const collections = [
         name: "Rabbit",
         category: "Farming",
         subFolder: "Animals",
+        searchTerms:[],
         traits: ["animal", "mob", "rabbit", "farmAnimal", "farming"],
         similar: [],
         url: "collectionPages/farmingCollections/animals/rabbit.html"
@@ -171,6 +191,7 @@ const collections = [
         name: "Blaze Rod",
         category: "Combat",
         subFolder: "Nether",
+        searchTerms:[],
         traits: ["blaze", "mobDrop", "nether", "crimsonIsle", "combat", "fire"],
         similar: ["Chili Pepper"],
         url: "collectionPages/combatCollections/combat/nether/blazeRod.html"
@@ -180,6 +201,7 @@ const collections = [
         name: "Chili Pepper",
         category: "Combat",
         subFolder: "Nether",
+        searchTerms:[],
         traits: ["pepper", "chili", "nether", "crimsonIsle", "combat"],
         similar: ["Blaze Rod"],
         url: "collectionPages/combatCollections/combat/nether/chiliPepper.html"
@@ -189,6 +211,7 @@ const collections = [
         name: "Ghast Tear",
         category: "Combat",
         subFolder: "Nether",
+        searchTerms:[],
         traits: ["ghast", "mobDrop", "nether", "crimsonIsle", "combat"],
         similar: [],
         url: "collectionPages/combatCollections/combat/nether/ghastTear.html"
@@ -198,6 +221,7 @@ const collections = [
         name: "Magma Cream",
         category: "Combat",
         subFolder: "Nether",
+        searchTerms:[],
         traits: ["magmaCube", "mobDrop", "nether", "crimsonIsle", "combat", "lava"],
         similar: [],
         url: "collectionPages/combatCollections/combat/nether/magmaCream.html"
@@ -207,6 +231,7 @@ const collections = [
         name: "Bone",
         category: "Combat",
         subFolder: "Overworld",
+        searchTerms:[],
         traits: ["skeleton", "mobDrop", "combat", "overworld"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/bone.html"
@@ -216,6 +241,7 @@ const collections = [
         name: "Ender Pearl",
         category: "Combat",
         subFolder: "Overworld",
+        searchTerms:[],
         traits: ["enderman", "mobDrop", "end", "combat", "pearl"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/enderPearl.html"
@@ -225,6 +251,7 @@ const collections = [
         name: "Gunpowder",
         category: "Combat",
         subFolder: "Overworld",
+        searchTerms:[],
         traits: ["creeper", "mobDrop", "combat", "explosive"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/gunpowder.html"
@@ -234,6 +261,7 @@ const collections = [
         name: "Rotten Flesh",
         category: "Combat",
         subFolder: "Overworld",
+        searchTerms:[],
         traits: ["zombie", "mobDrop", "combat", "undead"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/rottenFlesh.html"
@@ -243,6 +271,7 @@ const collections = [
         name: "Slime Ball",
         category: "Combat",
         subFolder: "Overworld",
+        searchTerms:[],
         traits: ["slime", "mobDrop", "combat"],
         similar: [],
         url: "collectionPages/combatCollections/combat/overworld/slimeball.html"
@@ -252,6 +281,7 @@ const collections = [
         name: "Spider Eye",
         category: "Combat",
         subFolder: "Overworld",
+        searchTerms:[],
         traits: ["spider", "mobDrop", "combat", "arachnid"],
         similar: ["String"],
         url: "collectionPages/combatCollections/combat/overworld/spiderEye.html"
@@ -261,6 +291,7 @@ const collections = [
         name: "String",
         category: "Combat",
         subFolder: "Overworld",
+        searchTerms:[],
         traits: ["spider", "mobDrop", "combat", "arachnid"],
         similar: ["Spider Eye"],
         url: "collectionPages/combatCollections/combat/overworld/string.html"
@@ -272,35 +303,25 @@ const collections = [
         name: "Bonzo",
         category: "Dungeon Boss",
         subFolder: "dungeonBoss",
-        traits: ["dungeon", "earlyGame"],
-        similar: [""],
-        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
-    },
+        searchTerms:[
+            "floor 1",
+            "floor 1 boss",
+            "f1",
+            "f1 boss",
+            "catacombs floor 1",
+            "catacombs boss"
+        ],
 
-    {
-        name: "Livid",
-        category: "Dungeon Boss",
-        subFolder: "dungeonBoss",
-        traits: ["dungeon", "lateGame"],
-        similar: [""],
-        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
-    },
+        traits: [
+            "dungeon", 
+            "floor1", 
+            "catacombs", 
+            "clown", 
+            "undead", 
+            "mage"
+        ],
 
-    {
-        name: "Necron",
-        category: "Dungeon Boss",
-        subFolder: "dungeonBoss",
-        traits: ["dungeon", "lateGame"],
-        similar: [""],
-        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
-    },
-
-    {
-        name: "Sadan",
-        category: "Dungeon Boss",
-        subFolder: "dungeonBoss",
-        traits: ["dungeon", "lateGame"],
-        similar: [""],
+        similar: ["Scarf"],
         url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
     },
 
@@ -308,8 +329,24 @@ const collections = [
         name: "Scarf",
         category: "Dungeon Boss",
         subFolder: "dungeonBoss",
-        traits: ["dungeon", "earlyGame"],
-        similar: [""],
+        searchTerms:[
+            "floor 2",
+            "floor 2 boss",
+            "f2",
+            "f2 boss",
+            "catacombs floor 2",
+            "catacombs boss"
+        ],
+
+        traits: [
+            "dungeon", 
+            "catacombs",
+            "necromancer",
+            "undead",
+            "mage"
+        ],
+
+        similar: ["Bonzo", "The Professor"],
         url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
     },
 
@@ -317,8 +354,25 @@ const collections = [
         name: "The Professor",
         category: "Dungeon Boss",
         subFolder: "dungeonBoss",
-        traits: ["dungeon", "earlyGame"],
-        similar: [""],
+        searchTerms:[
+            "professor",
+            "floor 3",
+            "floor 3 boss",
+            "f3",
+            "f3 boss",
+            "catacombs floor 3",
+            "catacombs boss"
+        ],
+
+        traits: [
+            "dungeon", 
+            "catacombs",
+            "guardian",
+            "mage",
+            "water"
+        ],
+
+        similar: ["Scarf", "Thorn"],
         url: "collectionPages/dungeonBossCollections/dungeonBoss/theProfessor.html"
     },
 
@@ -326,17 +380,122 @@ const collections = [
         name: "Thorn",
         category: "Dungeon Boss",
         subFolder: "dungeonBoss",
-        traits: ["dungeon", "earlyGame"],
-        similar: [""],
+        searchTerms:[
+            "floor 4",
+            "floor 4 boss",
+            "f4",
+            "f4 boss",
+            "catacombs floor 4",
+            "catacombs boss"
+        ],
+
+        traits: [
+            "dungeon", 
+            "catacombs",
+            "spirit",
+            "animals",
+            "bow"
+        ],
+
+        similar: ["The Professor", "Livid"],
         url: "collectionPages/dungeonBossCollections/dungeonBoss/thorn.html"
+    },
+
+    {
+        name: "Livid",
+        category: "Dungeon Boss",
+        subFolder: "dungeonBoss",
+        searchTerms:[
+            "floor 5",
+            "floor 5 boss",
+            "f5", 
+            "f5 boss",
+            "catacombs floor 5",
+            "catacombs boss"
+        ],
+
+        traits: [
+            "dungeon", 
+            "catacombs",
+            "assassin",
+            "clone",
+            "shadow"
+        ],
+
+        similar: ["Thorn", "Sadan"],
+        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
+    },
+
+    {
+        name: "Sadan",
+        category: "Dungeon Boss",
+        subFolder: "dungeonBoss",
+        searchTerms:[
+            "floor 6",
+            "floor 6 boss",
+            "f6",
+            "f6 boss",
+            "catacombs floor 6",
+            "catacombs 6"
+        ],
+        traits: [
+            "dungeon", 
+            "catacombs",
+            "necromancer",
+            "giant",
+            "undead"
+        ],
+        similar: ["Livid", "Necron"],
+        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
+    },
+
+    {
+        name: "Necron",
+        category: "Dungeon Boss",
+        subFolder: "dungeonBoss",
+        searchTerms:[
+            "floor 7",
+            "floor 7 boss",
+            "f7", 
+            "f7 boss",
+            "catacombs floor 7",
+            "catacombs boss",
+            "wither boss",
+            "final dungeon boss"
+        ],
+
+        traits: [
+            "dungeon", 
+            "catacombs",
+            "wither",
+            "finalBoss",
+            "lateGame"
+        ],
+        similar: ["Sadan"],
+        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
     },
 
     {
         name: "Kuudra",
         category: "Dungeon Boss",
         subFolder: "",
-        traits: ["notDungeon", "lateGame"],
-        similar: [""],
+        searchTerms:[
+            "kuudra boss",
+            "crimson isle boss",
+            "nether boss",
+            "lava boss",
+            "notDungeon"
+        ],
+
+        traits: [
+            "notDungeon", 
+            "crimsonIsle",
+            "nether",
+            "lava",
+            "boss"
+        ],
+
+        similar: [],
         url: "collectionPages/dungeonBossCollections/kuudra.html"
     },
 
