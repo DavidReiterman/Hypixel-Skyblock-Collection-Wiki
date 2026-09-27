@@ -262,7 +262,88 @@ const collections = [
         traits: ["common", "lowMob", "darkColor"],
         similar: ["Spider Eye"],
         url: "collectionPages/combatCollections/combat/overworld/string.html"
-    }
+    },
+
+    {
+        name: "",
+        category: "Dungeon Boss",
+        subFolder: "dungeonBoss",
+        traits: ["", "", ""],
+        similar: [""],
+        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
+    },
+
+    {
+        name: "Bonzo",
+        category: "Dungeon Boss",
+        subFolder: "dungeonBoss",
+        traits: ["dungeon", "earlyGame"],
+        similar: [""],
+        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
+    },
+
+    {
+        name: "Livid",
+        category: "Dungeon Boss",
+        subFolder: "dungeonBoss",
+        traits: ["dungeon", "lateGame"],
+        similar: [""],
+        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
+    },
+
+    {
+        name: "Necron",
+        category: "Dungeon Boss",
+        subFolder: "dungeonBoss",
+        traits: ["dungeon", "lateGame"],
+        similar: [""],
+        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
+    },
+
+    {
+        name: "Sadan",
+        category: "Dungeon Boss",
+        subFolder: "dungeonBoss",
+        traits: ["dungeon", "lateGame"],
+        similar: [""],
+        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
+    },
+
+    {
+        name: "Scarf",
+        category: "Dungeon Boss",
+        subFolder: "dungeonBoss",
+        traits: ["dungeon", "earlyGame"],
+        similar: [""],
+        url: "collectionPages/dungeonBossCollections/dungeonBoss/.html"
+    },
+
+    {
+        name: "The Professor",
+        category: "Dungeon Boss",
+        subFolder: "dungeonBoss",
+        traits: ["dungeon", "earlyGame"],
+        similar: [""],
+        url: "collectionPages/dungeonBossCollections/dungeonBoss/theProfessor.html"
+    },
+
+    {
+        name: "Thorn",
+        category: "Dungeon Boss",
+        subFolder: "dungeonBoss",
+        traits: ["dungeon", "earlyGame"],
+        similar: [""],
+        url: "collectionPages/dungeonBossCollections/dungeonBoss/thorn.html"
+    },
+
+    {
+        name: "Kuudra",
+        category: "Dungeon Boss",
+        subFolder: "",
+        traits: ["notDungeon", "lateGame"],
+        similar: [""],
+        url: "collectionPages/dungeonBossCollections/kuudra.html"
+    },
 ];
 
 const searchInput = document.getElementById("collection-search");
