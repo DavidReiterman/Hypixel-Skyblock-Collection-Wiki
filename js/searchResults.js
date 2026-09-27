@@ -311,7 +311,12 @@ const collections = [
         category: "Combat",
         subFolder: "Nether",
         searchTerms:[
-
+            "blaze",
+            "blaze rods",
+            "blaze rod collection",
+            "combat blaze rod",
+            "nether mob drop",
+            "crimson isle blaze"
         ],
 
         traits: ["blaze", "mobDrop", "nether", "crimsonIsle", "combat", "fire"],
@@ -324,7 +329,12 @@ const collections = [
         category: "Combat",
         subFolder: "Nether",
         searchTerms:[
-
+            "chili",
+            "pepper",
+            "chili peppers",
+            "chili pepper collection",
+            "combat chili pepper",
+            "crimson isle pepper"
         ],
 
         traits: ["pepper", "chili", "nether", "crimsonIsle", "combat"],
@@ -337,7 +347,12 @@ const collections = [
         category: "Combat",
         subFolder: "Nether",
         searchTerms:[
-
+            "ghast",
+            "ghast tears",
+            "ghast tear collection",
+            "combat ghast tear",
+            "nether mob drop",
+            "crimson isle ghast"
         ],
 
         traits: ["ghast", "mobDrop", "nether", "crimsonIsle", "combat"],
@@ -350,7 +365,12 @@ const collections = [
         category: "Combat",
         subFolder: "Nether",
         searchTerms:[
-
+            "magma",
+            "magma cube",
+            "magma cubes",
+            "magma cream collection",
+            "combat magma cream",
+            "nether mob drop"
         ],
 
         traits: ["magmaCube", "mobDrop", "nether", "crimsonIsle", "combat", "lava"],
@@ -363,7 +383,12 @@ const collections = [
         category: "Combat",
         subFolder: "Overworld",
         searchTerms:[
-
+            "bones",
+            "bone collection",
+            "combat bone",
+            "skeleton",
+            "skeleton drop",
+            "mob drop"
         ],
 
         traits: ["skeleton", "mobDrop", "combat", "overworld"],
@@ -376,7 +401,14 @@ const collections = [
         category: "Combat",
         subFolder: "Overworld",
         searchTerms:[
-
+            "ender pearls",
+            "enderpearl",
+            "pearl",
+            "pearls",
+            "ender pearl collection",
+            "combat ender pearl",
+            "enderman",
+            "enderman drop"
         ],
 
         traits: ["enderman", "mobDrop", "end", "combat", "pearl"],
@@ -389,7 +421,12 @@ const collections = [
         category: "Combat",
         subFolder: "Overworld",
         searchTerms:[
-
+            "gun powder",
+            "gunpowder collection",
+            "combat gunpowder",
+            "creeper",
+            "creeper drop",
+            "explosive drop"
         ],
 
         traits: ["creeper", "mobDrop", "combat", "explosive"],
@@ -402,7 +439,11 @@ const collections = [
         category: "Combat",
         subFolder: "Overworld",
         searchTerms:[
-
+            "rottenflesh",
+            "rotten flesh collection",
+            "zombie",
+            "zombie drop",
+            "undead drop"
         ],
 
         traits: ["zombie", "mobDrop", "combat", "undead"],
@@ -415,7 +456,13 @@ const collections = [
         category: "Combat",
         subFolder: "Overworld",
         searchTerms:[
-
+            "slimeball",
+            "slimeballs",
+            "slime ball",
+            "slime ball collection",
+            "combat slime ball",
+            "slime",
+            "slime drop"
         ],
 
         traits: ["slime", "mobDrop", "combat"],
@@ -428,7 +475,13 @@ const collections = [
         category: "Combat",
         subFolder: "Overworld",
         searchTerms:[
-
+            "spider eyes",
+            "spidereye",
+            "spider eye collection",
+            "combat spider eye",
+            "spider",
+            "spider drop",
+            "arachnid"
         ],
 
         traits: ["spider", "mobDrop", "combat", "arachnid"],
@@ -441,7 +494,11 @@ const collections = [
         category: "Combat",
         subFolder: "Overworld",
         searchTerms:[
-
+            "strings",
+            "string collection",
+            "combat string",
+            "spider drop",
+            "arachnid drop"
         ],
 
         traits: ["spider", "mobDrop", "combat", "arachnid"],
