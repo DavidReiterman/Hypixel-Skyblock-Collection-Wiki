@@ -344,6 +344,130 @@ const collections = [
         similar: [""],
         url: "collectionPages/dungeonBossCollections/kuudra.html"
     },
+
+    // Fishing pages below, fish folder first followed by the items pages
+
+    {
+        name: "Ink Sack",
+        category: "Fishing",
+        subFolder: "fish",
+        traits: ["darkColor", "water", "animal"],
+        similar: [""],
+        url: "collectionPages/fishingCollections/fish/inkSack.html"
+    },
+
+    {
+        name: "Magma Fish",
+        category: "Fishing",
+        subFolder: "fish",
+        traits: ["darkColor", "lava", "fish"],
+        similar: [""],
+        url: "collectionPages/fishingCollections/fish/magmafish.html"
+    },
+
+    {
+        name: "Pufferfish",
+        category: "Fishing",
+        subFolder: "fish",
+        traits: ["lightColor", "water", "fish"],
+        similar: [""],
+        url: "collectionPages/fishingCollections/fish/pufferfish.html"
+    },
+
+    {
+        name: "Raw Cod",
+        category: "Fishing",
+        subFolder: "fish",
+        traits: ["lightColor", "water", "fish"],
+        similar: [""],
+        url: "collectionPages/fishingCollections/fish/rawCod.html"
+    },
+
+    {
+        name: "Raw Salmon",
+        category: "Fishing",
+        subFolder: "fish",
+        traits: ["lightColor", "water", "fish"],
+        similar: [""],
+        url: "collectionPages/fishingCollections/fish/rawSalmon.html"
+    },
+
+    {
+        name: "Tropical Fish",
+        category: "Fishing",
+        subFolder: "fish",
+        traits: ["lightColor", "water", "fish"],
+        similar: [""],
+        url: "collectionPages/fishingCollections/fish/tropicalFish.html"
+    },
+
+    // Fishing items pages
+
+    {
+        name: "Clay Ball",
+        category: "Fishing",
+        subFolder: "items",
+        traits: ["dead", "lightColor"],
+        similar: [""],
+        url: "collectionPages/fishingCollections/items/clayBall.html"
+    },
+
+    {
+        name: "Lily Pad",
+        category: "Fishing",
+        subFolder: "items",
+        traits: ["living", "lightColor"],
+        similar: [""],
+        url: "collectionPages/fishingCollections/items/lilyPad.html"
+    },
+
+    {
+        name: "Lotus",
+        category: "Fishing",
+        subFolder: "items",
+        traits: ["living", "lightColor"],
+        similar: [""],
+        url: "collectionPages/fishingCollections/items/lotus.html"
+    },
+
+    {
+        name: "Prismarine Crystals",
+        category: "Fishing",
+        subFolder: "fish",
+        traits: ["dead", "lightColor", "prismarine"],
+        similar: ["Prismarine Shards"],
+        url: "collectionPages/fishingCollections/items/prismarineCrystals.html"
+    },
+
+    {
+        name: "Prismarine Shards",
+        category: "Fishing",
+        subFolder: "items",
+        traits: ["dead", "lightColor", "prismarine"],
+        similar: ["Prismarine Crystals"],
+        url: "collectionPages/fishingCollections/items/prismarineShard.html"
+    },
+
+    {
+        name: "Sponge",
+        category: "Fishing",
+        subFolder: "fish",
+        traits: ["living", "lightColor"],
+        similar: [""],
+        url: "collectionPages/fishingCollections/items/sponge.html"
+    },
+
+    // Foraging Pages
+    /*
+    {
+        name: "",
+        category: "Fishing",
+        subFolder: "fish",
+        traits: ["", ""],
+        similar: [""],
+        url: "collectionPages/fishingCollections/items/.html"
+    },
+    */
 ];
 
 const searchInput = document.getElementById("collection-search");
