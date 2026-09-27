@@ -793,16 +793,70 @@ const collections = [
         url: "collectionPages/miningCollections/stones/umber.html"
     },
 
-    /*
+    //Rift collection page
+
     {
-        name: "",
-        category: "Mining",
-        subFolder: "",
+        name: "Agaricus Cap",
+        category: "Rift",
+        subFolder: "objects",
+        traits: ["earlyRift", "rift"],
+        similar: [],
+        url: "collectionPages/riftCollections/objects/agaricusCap.html"
+    },
+
+    {
+        name: "Caducous Stem",
+        category: "Rift",
+        subFolder: "objects",
+        traits: ["plant", "rift", "earlyRift"],
+        similar: [""],
+        url: "collectionPages/riftCollections/objects/caducousStem.html"
+    },
+
+    {
+        name: "Half Eaten Carrot",
+        category: "Rift",
+        subFolder: "objects",
+        traits: ["plant", "rift"],
+        similar: [""],
+        url: "collectionPages/riftCollections/objects/halfEatenCarrot.html"
+    },
+
+    {
+        name: "Hemovibe",
+        category: "Rift",
+        subFolder: "objects",
         traits: ["", ""],
         similar: [""],
         url: "collectionPages/miningCollections//.html"
     },
-    */
+
+    {
+        name: "Living Metal Heart",
+        category: "Rift",
+        subFolder: "objects",
+        traits: ["earlyRift", "rift", "living"],
+        similar: [],
+        url: "collectionPages/riftCollections/objects/livingMetalHeart.html"
+    },
+
+    {
+        name: "Timite",
+        category: "Rift",
+        subFolder: "objects",
+        traits: ["lateRift", "rift"],
+        similar: [],
+        url: "collectionPages/riftCollections/objects/timite.html"
+    },
+
+    {
+        name: "Wilted Berberis",
+        category: "Rift",
+        subFolder: "objects",
+        traits: ["earlyRift", "rift", "plant"],
+        similar: [],
+        url: "collectionPages/riftCollections/objects/wiltedBerberis.html"
+    }
 ];
 
 const searchInput = document.getElementById("collection-search");
