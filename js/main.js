@@ -15,7 +15,7 @@ const collections = [
         name: "Cactus",
         category: "Farming",
         subFolder: "Crops",
-        traits: ["standing", "darkColor", "desert"],
+        traits: ["crop", "plant", "cactus", "desert", "mushroomDesert", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/cactus.html"
     },
@@ -24,7 +24,7 @@ const collections = [
         name: "Carrot",
         category: "Farming",
         subFolder: "Crops",
-        traits: ["ground", "brightColor", "plains"],
+        traits: ["crop", "plant", "vegetable", "garden", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/carrot.html"
     },
@@ -33,7 +33,7 @@ const collections = [
         name: "Cocoa Beans",
         category: "Farming",
         subFolder: "Crops",
-        traits: ["standing", "darkColor", "jungle"],
+        traits: ["crops", "plant", "cocoa", "jungle", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/cocoaBeans.html"
     },
@@ -42,7 +42,7 @@ const collections = [
         name: "Melon",
         category: "Farming",
         subFolder: "Crops",
-        traits: ["stem", "brightColor", "jungle"],
+        traits: ["crop", "plant", "melon", "fruit", "garden", "farming", "collection"],
         similar: ["Pumpkin"],
         url: "collectionPages/farmingCollections/crops/melon.html"
     },
@@ -51,7 +51,7 @@ const collections = [
         name: "Mushroom",
         category: "Farming",
         subFolder: "Crops",
-        traits: ["ground", "brightColor", "plains"],
+        traits: ["crop", "plant", "mushroom", "fungus", "mushroomDesert", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/mushroom.html"
     },
@@ -60,7 +60,7 @@ const collections = [
         name: "Nether Wart",
         category: "Farming",
         subFolder: "Crops",
-        traits: ["ground", "brightColor", "nether"],
+        traits: ["crop", "plant", "nether", "wart", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/netherWart.html"
     },
@@ -69,7 +69,7 @@ const collections = [
         name: "Potato",
         category: "Farming",
         subFolder: "Crops",
-        traits: ["ground", "brightColor", "plains"],
+        traits: ["crop", "plant", "vegetable", "garden", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/potato.html"
     },
@@ -77,7 +77,7 @@ const collections = [
     {
         name: "Pumpkin",
         category: "Farming",
-        traits: ["stem", "brightColor", "plains"],
+        traits: ["crop", "plant", "pumpin", "garden", "farming", "collection"],
         similar: ["Melon"],
         url: "collectionPages/farmingCollections/crops/pumpkin.html"
     },
@@ -86,7 +86,7 @@ const collections = [
         name: "Seeds",
         category: "Farming",
         subFolder: "Crops",
-        traits: ["ground", "brightColor", "plains"],
+        traits: ["crop", "plant", "wheat", "plant", "farming", "collection"],
         similar: ["Wheat"],
         url: "collectionPages/farmingCollections/crops/seeds.html"
     },
@@ -95,7 +95,7 @@ const collections = [
         name: "Sugar Cane",
         category: "Farming",
         subFolder: "Crops",
-        traits: ["standing", "brightColor", "plains"],
+        traits: ["crop", "plant", "sugar", "cane", "farming", "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/sugarCane.html"
     },
@@ -104,7 +104,7 @@ const collections = [
         name: "Wheat",
         category: "Farming",
         subFolder: "Crops",
-        traits: ["ground", "brightColor", "plains"],
+        traits: ["crop", "plant", "grain", "seed", "wheat", "garden", "farming", "collection"],
         similar: ["Seeds"],
         url: "collectionPages/farmingCollections/crops/wheat.html"
     },
@@ -114,7 +114,7 @@ const collections = [
         name: "Chicken",
         category: "Farming",
         subFolder: "Animals",
-        traits: ["small", "produces"],
+        traits: ["animal", "mob", "chicken", "farmAnimal", "farming"],
         similar: ["Feather"],
         url: "collectionPages/farmingCollections/animals/chicken.html"
     },
@@ -123,7 +123,7 @@ const collections = [
         name: "Feather",
         category: "Farming",
         subFolder: "Animals",
-        traits: ["small", "produces"],
+        traits: ["animalDrop", "mobDrop", "chicken", "feather", "farming"],
         similar: ["Chicken"],
         url: "collectionPages/farmingCollections/animals/feather.html"
     },
@@ -132,7 +132,7 @@ const collections = [
         name: "Leather",
         category: "Farming",
         subFolder: "Animals",
-        traits: ["large", "produces"],
+        traits: ["animalDrop", "mobDrop", "cow", "leather", "farming"],
         similar: [],
         url: "collectionPages/farmingCollections/animals/leather.html"
     },
@@ -141,7 +141,7 @@ const collections = [
         name: "Mutton",
         category: "Farming",
         subFolder: "Animals",
-        traits: ["large", "doesntProduce"],
+        traits: ["animalDrop", "mobDrop", "sheep", "mutton", "farming"],
         similar: [],
         url: "collectionPages/farmingCollections/animals/mutton.html"
     },
@@ -150,7 +150,7 @@ const collections = [
         name: "Pork",
         category: "Farming",
         subFolder: "Animals",
-        traits: ["large", "doesntProduce"],
+        traits: ["animalDrop", "mobDrop", "pig", "pork", "farming"],
         similar: [],
         url: "collectionPages/farmingCollections/animals/pork.html"
     },
@@ -159,7 +159,7 @@ const collections = [
         name: "Rabbit",
         category: "Farming",
         subFolder: "Animals",
-        traits: ["small", "doesntProduce"],
+        traits: ["animal", "mob", "rabbit", "farmAnimal", "farming"],
         similar: [],
         url: "collectionPages/farmingCollections/animals/rabbit.html"
     },
