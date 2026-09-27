@@ -51,14 +51,19 @@
 
         <h1 class="index-title">Collections</h1>
 
-        <div class="search-bar">
+        <!-- Search bar -->
+        <div class="search-container">
             <input
                 type="search"
                 id="collection-search"
+                class="collection-search"
                 placeholder="Search collections.."
+                autocomplete="off"
             >
+
+            <div id="search-results" class="search-results"></div>
         </div>
 
-        <script src="../js/main.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
