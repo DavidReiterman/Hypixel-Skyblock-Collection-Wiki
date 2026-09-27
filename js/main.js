@@ -451,21 +451,160 @@ const collections = [
     {
         name: "Sponge",
         category: "Fishing",
-        subFolder: "fish",
+        subFolder: "items",
         traits: ["living", "lightColor"],
         similar: [""],
         url: "collectionPages/fishingCollections/items/sponge.html"
     },
 
-    // Foraging Pages
+    // Foraging Pages: logs pages 
+
+    {
+        name: "Acacia Log",
+        category: "Foraging",
+        subFolder: "logs",
+        traits: ["brightLog", "brightBiome"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/logs/acacia.html"
+    },
+    
+    {
+        name: "Birch",
+        category: "Foraging",
+        subFolder: "logs",
+        traits: ["bright"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/logs/birch.html"
+    },
+
+    {
+        name: "darkOak",
+        category: "Foraging",
+        subFolder: "logs",
+        traits: ["dark"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/logs/darkOak.html"
+    },
+
+    {
+        name: "Fig",
+        category: "Foraging",
+        subFolder: "logs",
+        traits: ["light"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/logs/fig.html"
+    },
+
+    {
+        name: "Helix",
+        category: "Foraging",
+        subFolder: "logs",
+        traits: ["dark"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/logs/helix.html"
+    },
+
+    {
+        name: "Jungle",
+        category: "Foraging",
+        subFolder: "logs",
+        traits: ["light"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/logs/jungle.html"
+    },
+
+    {
+        name: "Mangrove",
+        category: "Foraging",
+        subFolder: "logs",
+        traits: ["dark"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/logs/mangrove.html"
+    },
+
+    {
+        name: "Oak",
+        category: "Foraging",
+        subFolder: "logs",
+        traits: ["", ""],
+        similar: [""],
+        url: "collectionPages/foragingCollections/logs/oak.html"
+    },
+
+    {
+        name: "Spruce",
+        category: "Foraging",
+        subFolder: "logs",
+        traits: ["dark"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/logs/spruce.html"
+    },
+
+    // Foraging Plants
+
+    {
+        name: "Honeycomb",
+        category: "Foraging",
+        subFolder: "plants",
+        traits: ["bright", "nonePlant"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/plants/honeycomb.html"
+    },
+
+    {
+        name: "Lushlilac",
+        category: "Foraging",
+        subFolder: "plants",
+        traits: ["plant"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/plants/lushlilac.html"
+    },
+
+    {
+        name: "Ruby Veilshroom",
+        category: "Foraging",
+        subFolder: "plants",
+        traits: ["plant"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/plants/rubyVeilshroom.html"
+    },
+
+    {
+        name: "Sea Lumis",
+        category: "Foraging",
+        subFolder: "plants",
+        traits: ["plant"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/plants/seaLumis.html"
+    },
+
+    {
+        name: "Tender Wood",
+        category: "Foraging",
+        subFolder: "plants",
+        traits: ["plant"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/plants/tenderWood.html"
+    },
+
+    {
+        name: "Vinesap",
+        category: "Foraging",
+        subFolder: "plants",
+        traits: ["plant"],
+        similar: [""],
+        url: "collectionPages/foragingCollections/plants/vinesap.html"
+    },
+
+    // Mining Collection
     /*
     {
         name: "",
-        category: "Fishing",
-        subFolder: "fish",
+        category: "Foraging",
+        subFolder: "plants",
         traits: ["", ""],
         similar: [""],
-        url: "collectionPages/fishingCollections/items/.html"
+        url: "collectionPages/foragingCollections/plants/.html"
     },
     */
 ];
