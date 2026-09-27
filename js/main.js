@@ -596,15 +596,211 @@ const collections = [
         url: "collectionPages/foragingCollections/plants/vinesap.html"
     },
 
-    // Mining Collection
+    // Mining Collection: Blocks
+    
+    {
+        name: "Cobblestone",
+        category: "Mining",
+        subFolder: "Blocks",
+        traits: ["stone", "gray"],
+        similar: ["Hard Stone"],
+        url: "collectionPages/miningCollections/blocks/cobblestone.html"
+    },
+
+    {
+        name: "Gravel",
+        category: "Mining",
+        subFolder: "blocks",
+        traits: ["gray", "canFall"],
+        similar: ["Sand", "Red Sand"],
+        url: "collectionPages/miningCollections/blocks/gravel.html"
+    },
+
+    {
+        name: "Hard Stone",
+        category: "Mining",
+        subFolder: "blocks",
+        traits: ["gray", "stone"],
+        similar: ["Cobblestone"],
+        url: "collectionPages/miningCollections/blocks/hardStone.html"
+    },
+
+    {
+        name: "Ice",
+        category: "Mining",
+        subFolder: "blocks",
+        traits: [],
+        similar: [],
+        url: "collectionPages/miningCollections/blocks/ice.html"
+    },
+
+    {
+        name: "Mycelium",
+        category: "Mining",
+        subFolder: "blocks",
+        traits: [],
+        similar: [],
+        url: "collectionPages/miningCollections/blocks/mycelium.html"
+    },
+
+    {
+        name: "Obsidian",
+        category: "Mining",
+        subFolder: "blocks",
+        traits: [],
+        similar: [],
+        url: "collectionPages/miningCollections/blocks/obsidian.html"
+    },
+
+    {
+        name: "Red Sand",
+        category: "Mining",
+        subFolder: "blocks",
+        traits: ["canFall", "sand"],
+        similar: ["Sand", "Gravel"],
+        url: "collectionPages/miningCollections/blocks/redSand.html"
+    },
+
+    {
+        name: "Sand",
+        category: "Mining",
+        subFolder: "blocks",
+        traits: ["canFall", "sand"],
+        similar: ["Red Sand", "Gravel"],
+        url: "collectionPages/miningCollections/blocks/sand.html"
+    },
+
+    // Mining Pages : Dust Pages
+
+    {
+        name: "Glowstone Dust",
+        category: "Mining",
+        subFolder: "dust",
+        traits: [],
+        similar: ["Redstone Dust", "Sulphur"],
+        url: "collectionPages/miningCollections/dust/glowstone.html"
+    },
+
+    {
+        name: "Redstone Dust",
+        category: "Mining",
+        subFolder: "dust",
+        traits: [],
+        similar: ["Glowstone Dust", "Sulphur"],
+        url: "collectionPages/miningCollections/dust/redstone.html"
+    },
+
+    {
+        name: "Sulphur",
+        category: "Mining",
+        subFolder: "dust",
+        traits: [],
+        similar: ["Redstone Dust", "Glowstone Dust"],
+        url: "collectionPages/miningCollections//.html"
+    },
+
+    // Mining Pages : Ingots
+
+    {
+        name: "Gold Ingot",
+        category: "Mining",
+        subFolder: "ingots",
+        traits: [],
+        similar: ["Iron Ingot"],
+        url: "collectionPages/miningCollections/ingots/gold.html"
+    },
+
+    {
+        name: "Iron Ingot",
+        category: "Mining",
+        subFolder: "ingots",
+        traits: [],
+        similar: ["Gold Ingot"],
+        url: "collectionPages/miningCollections/ingots/iron.html"
+    },
+
+    // Mining Pages : Stones
+
+    {
+        name: "Coal",
+        category: "Mining",
+        subFolder: "stones",
+        traits: ["dark", "stone", "overworld"],
+        similar: [],
+        url: "collectionPages/miningCollections/stones/coal.html"
+    },
+
+    {
+        name: "Diamond",
+        category: "Mining",
+        subFolder: "stones",
+        traits: ["bright", "stone", "overworld"],
+        similar: [],
+        url: "collectionPages/miningCollections/stones/diamond.html"
+    },
+
+    {
+        name: "Emerald",
+        category: "Mining",
+        subFolder: "stones",
+        traits: ["bright", "stone", "overworld"],
+        similar: [],
+        url: "collectionPages/miningCollections/stones/emerald.html"
+    },
+
+    {
+        name: "Gemstone",
+        category: "Mining",
+        subFolder: "stones",
+        traits: ["bright", "stone", "dwarvenMine"],
+        similar: [],
+        url: "collectionPages/miningCollections/stones/gemstone.html"
+    },
+
+    {
+        name: "Lapis Lazuli",
+        category: "Mining",
+        subFolder: "stones",
+        traits: ["bright", "stone", "overworld"],
+        similar: [],
+        url: "collectionPages/miningCollections/stones/lapisLazuli.html"
+    },
+
+    {
+        name: "Mithril",
+        category: "Mining",
+        subFolder: "stones",
+        traits: ["dark", "stone", "dwarvenMine"],
+        similar: [],
+        url: "collectionPages/miningCollections/stones/mithril.html"
+    },
+
+    {
+        name: "Tungsten",
+        category: "Mining",
+        subFolder: "stones",
+        traits: ["dark", "stone", "dwarvenMine"],
+        similar: [],
+        url: "collectionPages/miningCollections/stones/tungsten.html"
+    },
+
+    {
+        name: "Umber",
+        category: "Mining",
+        subFolder: "stones",
+        traits: ["dark", "stone", "dwarvenMine"],
+        similar: [],
+        url: "collectionPages/miningCollections/stones/umber.html"
+    },
+
     /*
     {
         name: "",
-        category: "Foraging",
-        subFolder: "plants",
+        category: "Mining",
+        subFolder: "",
         traits: ["", ""],
         similar: [""],
-        url: "collectionPages/foragingCollections/plants/.html"
+        url: "collectionPages/miningCollections//.html"
     },
     */
 ];
