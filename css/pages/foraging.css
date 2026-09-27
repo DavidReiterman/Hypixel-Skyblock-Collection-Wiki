@@ -1,3 +1,7 @@
+/* 
+    Foraging title is the unique text for the h1 header text at the top of the page
+    Also used for titles on each collection page.
+*/
 .foraging-title {
     text-align: center;
     margin-top: 80px;
@@ -13,6 +17,7 @@
         3px 4px 2px rgba(0, 0, 0, 0.4)
 }
 
+/* Background page for the foraging home screen */
 .foraging-page {
     min-height: 100vh;
     background-image: url("../../assets/images/backgrounds/foraging1.webp");
@@ -22,6 +27,7 @@
     background-attachment: fixed;
 }
 
+/* Foraging buttons built in the same style as rift buttons */
 .foraging-collection-grid {
     width: 80%;
     max-width: 1100px;
@@ -62,4 +68,58 @@
     box-shadow:
         0 10px 22px rgba(0, 0, 0, 0.55),
         0 0 15px rgba(177, 105, 220, 0.35);
+}
+
+/* Background pages with the background images for all log pages */
+.acacia-page {
+    background-image: url("../../assets/images/collections/foraging/logs/acacia1.webp");
+}
+.birch-page {
+    background-image: url("../../assets/images/collections/foraging/logs/birch1.webp");
+}
+.darkOak-page {
+    background-image: url("../../assets/images/collections/foraging/logs/darkOak1.webp");
+}
+.fig-page {
+    background-image: url("../../assets/images/collections/foraging/logs/fig1.webp");
+}
+.helix-page {
+    background-image: url("../../assets/images/collections/foraging/logs/helix1.webp");
+}
+.jungle-page {
+    background-image: url("../../assets/images/collections/foraging/logs/jungle1.webp");
+}
+.mangrove-page {
+    background-image: url("../../assets/images/collections/foraging/logs/mangrove1.webp");
+}
+.oak-page {
+    background-image: url("../../assets/images/collections/foraging/logs/oak1.webp");
+}
+.spruce-page {
+    background-image: url("../../assets/images/collections/foraging/logs/spruce1.webp");
+}
+
+/* Backgroung pages with images for all the plants pages */
+.honeycomb-page {
+    background-image: url("../../assets/images/collections/foraging/plants/honeycomb1.webp");
+}
+
+.lushlilac-page {
+    background-image: url("../../assets/images/collections/foraging/plants/lushlilac1.webp");
+}
+
+.rubyVeilshroom-page {
+    background-image: url("../../assets/images/collections/foraging/plants/rubyVeilshroom1.webp");
+}
+
+.seaLumis-page {
+    background-image: url("../../assets/images/collections/foraging/plants/seaLumis1.webp");
+}
+
+.tenderWood-page {
+    background-image: url("../../assets/images/collections/foraging/plants/tenderWood1.webp");
+}
+
+.vinesap-page {
+    background-image: url("../../assets/images/collections/foraging/plants/vinesap1.webp");
 }
