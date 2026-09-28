@@ -658,7 +658,7 @@ const collections = [
     {
         name: "Ink Sack",
         category: "Fishing",
-        subFolder: "fish",
+        subFolder: "items",
         searchTerms: [
             "ink sac",
             "ink sack",
@@ -872,11 +872,16 @@ const collections = [
         category: "Foraging",
         subFolder: "logs",
         searchTerms: [
-
+            "acacia",
+            "acacia wood",
+            "acacia logs",
+            "acacia collection",
+            "foraging acacia",
+            "savanna wood"
         ],
         
-        traits: ["brightLog", "brightBiome"],
-        similar: [""],
+        traits: ["foraging", "wood", "log", "tree", "acacia", "thePark", "savanna", "collectionItem"],
+        similar: ["Jungle Log", "Birch Log"],
         url: "collectionPages/foragingCollections/logs/acacia.html"
     },
     
@@ -885,11 +890,16 @@ const collections = [
         category: "Foraging",
         subFolder: "logs",
         searchTerms: [
-
+            "birch log",
+            "birch logs",
+            "birch wood",
+            "birch collection",
+            "foraging birch",
+            "birch park"
         ],
         
-        traits: ["bright"],
-        similar: [""],
+        traits: ["foraging", "wood", "log", "tree", "branch", "thePark", "collectionItem"],
+        similar: ["Oak Log", "Acacia Log"],
         url: "collectionPages/foragingCollections/logs/birch.html"
     },
 
@@ -898,11 +908,17 @@ const collections = [
         category: "Foraging",
         subFolder: "logs",
         searchTerms: [
-
+            "dark oak",
+            "darkoak",
+            "dark oak log",
+            "dark oak logs",
+            "dark oak wood",
+            "dark oak collection",
+            "dark thicket"
         ],
         
-        traits: ["dark"],
-        similar: [""],
+        traits: ["foraging", "wood", "log", "tree", "darkOak", "thePark", "darkThicket", "collectionItem"],
+        similar: ["Oak Log", "Spruce Log"],
         url: "collectionPages/foragingCollections/logs/darkOak.html"
     },
 
@@ -911,11 +927,16 @@ const collections = [
         category: "Foraging",
         subFolder: "logs",
         searchTerms: [
-
+            "fig log",
+            "fig logs",
+            "fig wood",
+            "fig collection",
+            "foraging fig",
+            "galatea fig"
         ],
         
-        traits: ["light"],
-        similar: [""],
+        traits: ["foraging", "wood", "log", "tre", "fig", "galatea", "collectionItems"],
+        similar: ["Mangrove Log", "Helix Log"],
         url: "collectionPages/foragingCollections/logs/fig.html"
     },
 
@@ -924,11 +945,16 @@ const collections = [
         category: "Foraging",
         subFolder: "logs",
         searchTerms: [
-
+            "helix log",
+            "helix logs",
+            "helix wood",
+            "helix collection",
+            "foraging helix",
+            "galatea helix"
         ],
         
-        traits: ["dark"],
-        similar: [""],
+        traits: ["foraging", "wood", "log", "tree", "helix", "galatea", "collectionItem"],
+        similar: ["Fig Log", "Mangrove Log"],
         url: "collectionPages/foragingCollections/logs/helix.html"
     },
 
@@ -937,11 +963,16 @@ const collections = [
         category: "Foraging",
         subFolder: "logs",
         searchTerms: [
-
+            "jungle log",
+            "jungle logs",
+            "jungle wood",
+            "jungle collection",
+            "foraging jungle",
+            "jungle island"
         ],
         
-        traits: ["light"],
-        similar: [""],
+        traits: ["foraging", "wood", "log", "tree", "jungle", "thePark", "collectionItem"],
+        similar: ["Acacia Log", "Oak Log"],
         url: "collectionPages/foragingCollections/logs/jungle.html"
     },
 
@@ -950,11 +981,16 @@ const collections = [
         category: "Foraging",
         subFolder: "logs",
         searchTerms: [
-
+            "mangrove log",
+            "mangrove logs",
+            "magrove wood",
+            "mangrove collection",
+            "foraging mangrove",
+            "galatea mangrove"
         ],
         
-        traits: ["dark"],
-        similar: [""],
+        traits: ["foraging", "wood", "log", "tree", "mangrove", "galatea", "collectionItem"],
+        similar: ["Fig Log", "Helix Log"],
         url: "collectionPages/foragingCollections/logs/mangrove.html"
     },
 
@@ -963,11 +999,16 @@ const collections = [
         category: "Foraging",
         subFolder: "logs",
         searchTerms: [
-
+            "oak log",
+            "oak logs",
+            "oak wood",
+            "oak collection",
+            "foraging oak",
+            "oak tree"
         ],
         
-        traits: ["", ""],
-        similar: [""],
+        traits: ["foraging", "wood", "log", "tree", "oak", "thePark", "collectionItem"],
+        similar: ["Birch Log", "Dark Oak Log"],
         url: "collectionPages/foragingCollections/logs/oak.html"
     },
 
@@ -976,11 +1017,16 @@ const collections = [
         category: "Foraging",
         subFolder: "logs",
         searchTerms: [
-
+            "spruce log",
+            "spurce logs",
+            "spruce wood",
+            "spruce collection",
+            "foraging spruce",
+            "spruce woods"
         ],
         
-        traits: ["dark"],
-        similar: [""],
+        traits: ["foraging", "wood", "log", "tree", "spruce", "thePark", "spruceWoods", "collectionItem"],
+        similar: ["Dark Oak Log", "Oak Log"],
         url: "collectionPages/foragingCollections/logs/spruce.html"
     },
 
@@ -991,11 +1037,16 @@ const collections = [
         category: "Foraging",
         subFolder: "plants",
         searchTerms: [
-
+            "honey comb",
+            "honeycombs",
+            "honeycomb collection",
+            "foraging honeycomb",
+            "galatea honeycomb",
+            "bee item"
         ],
         
-        traits: ["bright", "nonePlant"],
-        similar: [""],
+        traits: ["foraging", "honey", "honeycomb", "bee", "galatea", "material", "collectionItem"],
+        similar: ["Vinesap"],
         url: "collectionPages/foragingCollections/plants/honeycomb.html"
     },
 
@@ -1004,11 +1055,16 @@ const collections = [
         category: "Foraging",
         subFolder: "plants",
         searchTerms: [
-
+            "lush lilac",
+            "lushlilac collection",
+            "foraging lushlilac",
+            "galatea lushlilac",
+            "lilac",
+            "bush item"
         ],
         
-        traits: ["plant"],
-        similar: [""],
+        traits:["foraging", "plant", "flower", "bush", "lushlilac", "galatea", "collectionItem"],
+        similar: ["Sea Lumis", "Ruby Veilshroom"],
         url: "collectionPages/foragingCollections/plants/lushlilac.html"
     },
 
@@ -1017,25 +1073,35 @@ const collections = [
         category: "Foraging",
         subFolder: "plants",
         searchTerms: [
-
+            "ruby veil shroom",
+            "ruby veil mushroom",
+            "veilshroom",
+            "ruby veilshroom collection",
+            "foraging veilshroom",
+            "galatea mushroom"
         ],
         
-        traits: ["plant"],
-        similar: [""],
+        traits: ["foraging", "plant", "mushroom", "fungus", "veilshroom", "galatea", "collectionItem"],
+        similar: ["Lushlilac", "Sea Lumis"],
         url: "collectionPages/foragingCollections/plants/rubyVeilshroom.html"
     },
 
     {
-        name: "Sea Lumis",
+        name: "Sea Lumies",
         category: "Foraging",
         subFolder: "plants",
         searchTerms: [
-
+            "sea lumi",
+            "sea lumies",
+            "sea lumies collection",
+            "foraging sea lumies",
+            "galatea sea lumies",
+            "luminous plant"
         ],
         
-        traits: ["plant"],
-        similar: [""],
-        url: "collectionPages/foragingCollections/plants/seaLumis.html"
+        traits: ["foraging", "plant", "aquatic", "sea", "luminous", "galatea", "collectionItem"],
+        similar: ["Lushlilac", "Ruby Veilshroom"],
+        url: "collectionPages/foragingCollections/plants/seaLumies.html"
     },
 
     {
@@ -1043,11 +1109,15 @@ const collections = [
         category: "Foraging",
         subFolder: "plants",
         searchTerms: [
-
+            "tenderwood",
+            "tender wood collection",
+            "foraging tender wood",
+            "galatea tender wood",
+            "soft wood"
         ],
         
-        traits: ["plant"],
-        similar: [""],
+        traits: ["foraging", "wood", "material", "tenderWood", "galatea", "collectionItem"],
+        similar: ["Vinesap", "Honeycomb"],
         url: "collectionPages/foragingCollections/plants/tenderWood.html"
     },
 
@@ -1056,11 +1126,16 @@ const collections = [
         category: "Foraging",
         subFolder: "plants",
         searchTerms: [
-
+            "vine sap",
+            "vineap collection",
+            "foraging vinesap",
+            "galatea vinesap",
+            "sap",
+            "vine item"
         ],
         
-        traits: ["plant"],
-        similar: [""],
+        traits: ["foraging", "plant", "sap", "vine", "vinesap", "galatea", "collectionItem"],
+        similar: ["Tender Wood", "Honeycomb"],
         url: "collectionPages/foragingCollections/plants/vinesap.html"
     },
 
