@@ -660,10 +660,18 @@ const collections = [
         category: "Fishing",
         subFolder: "fish",
         searchTerms: [
-
+            "ink sac",
+            "ink sack",
+            "ink sacs",
+            "ink sacks",
+            "squid drop",
+            "inksack",
+            "inksacks",
+            "fishing ink",
+            "ink collection"
         ],
         
-        traits: ["darkColor", "water", "animal"],
+        traits: ["fishing", "squid", "mobDrop", "water", "ink", "collectionItem"],
         similar: [""],
         url: "collectionPages/fishingCollections/fish/inkSack.html"
     },
@@ -672,11 +680,16 @@ const collections = [
         name: "Magma Fish",
         category: "Fishing",
         subFolder: "fish",
-                searchTerms: [
-
+        searchTerms: [
+            "magmafish",
+            "magma fish",
+            "magma fish collection",
+            "lava fishing",
+            "crimson isle fishing",
+            "magma fishing"
         ],
         
-        traits: ["darkColor", "lava", "fish"],
+        traits: ["fishing", "fish", "lavaFishing", "lava", "crimsonIsle", "magma", "collectionItem"],
         similar: [""],
         url: "collectionPages/fishingCollections/fish/magmafish.html"
     },
@@ -686,10 +699,14 @@ const collections = [
         category: "Fishing",
         subFolder: "fish",
         searchTerms: [
-
+            "puffer fish",
+            "pufferfish collection",
+            "fishing pufferfish",
+            "water fish",
+            "puffer fish collection"
         ],
 
-        traits: ["lightColor", "water", "fish"],
+        traits: ["fishing", "fish", "water", "pufferfish", "collectionItem"],
         similar: [""],
         url: "collectionPages/fishingCollections/fish/pufferfish.html"
     },
@@ -699,10 +716,14 @@ const collections = [
         category: "Fishing",
         subFolder: "fish",
         searchTerms: [
-
+            "cod",
+            "raw fish",
+            "raw cod collection",
+            "cod collection",
+            "fishing cod"
         ],
         
-        traits: ["lightColor", "water", "fish"],
+        traits: ["fishing", "fish", "water", "cod", "rawFish", "collectionItem"],
         similar: [""],
         url: "collectionPages/fishingCollections/fish/rawCod.html"
     },
@@ -712,10 +733,14 @@ const collections = [
         category: "Fishing",
         subFolder: "fish",
         searchTerms: [
-
+            "salmon",
+            "raw salmon collection",
+            "salmon collection",
+            "fishing salmon",
+            "raw fish"
         ],
         
-        traits: ["lightColor", "water", "fish"],
+        traits: ["fishing", "fish","water", "salmon", "rawFish", "collectionItem"],
         similar: [""],
         url: "collectionPages/fishingCollections/fish/rawSalmon.html"
     },
@@ -725,10 +750,14 @@ const collections = [
         category: "Fishing",
         subFolder: "fish",
         searchTerms: [
-
+            "tropicalfish",
+            "tropical fish collection",
+            "fishing tropical fish",
+            "water fish",
+            "tropical fish"
         ],
         
-        traits: ["lightColor", "water", "fish"],
+        traits: ["fishing", "fish", "water", "tropical", "collectionItem"],
         similar: [""],
         url: "collectionPages/fishingCollections/fish/tropicalFish.html"
     },
@@ -740,10 +769,14 @@ const collections = [
         category: "Fishing",
         subFolder: "items",
         searchTerms: [
-
+            "clay",
+            "clay balls",
+            "clay bll collection",
+            "fishing clay",
+            "clay collection"
         ],
         
-        traits: ["dead", "lightColor"],
+        traits: ["fishing", "material", "clay", "water", "collectionItem"],
         similar: [""],
         url: "collectionPages/fishingCollections/items/clayBall.html"
     },
@@ -753,10 +786,14 @@ const collections = [
         category: "Fishing",
         subFolder: "items",
         searchTerms: [
-
+            "lilypad", 
+            "lily pads",
+            "lily pad collection",
+            "fishing lily pad",
+            "water plant"
         ],
         
-        traits: ["living", "lightColor"],
+        traits: ["fishing", "plant", "water", "lilyPad", "collectionItem"],
         similar: [""],
         url: "collectionPages/fishingCollections/items/lilyPad.html"
     },
@@ -766,10 +803,13 @@ const collections = [
         category: "Fishing",
         subFolder: "items",
         searchTerms: [
-
+            "lotus collection",
+            "fishing lotus",
+            "water plant",
+            "lotus item"
         ],
         
-        traits: ["living", "lightColor"],
+        traits: ["fishing", "plant", "water", "lotus", "collectionItem"],
         similar: [""],
         url: "collectionPages/fishingCollections/items/lotus.html"
     },
@@ -779,10 +819,14 @@ const collections = [
         category: "Fishing",
         subFolder: "fish",
         searchTerms: [
-
+            "prismarine crystal",
+            "prismarine crystals",
+            "prismarine crystal collection",
+            "guardian drop",
+            "fishing prismarine"
         ],
         
-        traits: ["dead", "lightColor", "prismarine"],
+        traits: ["fishing", "prismarine", "crystal", "guardian", "mobDrop", "water", "collectionItem"],
         similar: ["Prismarine Shards"],
         url: "collectionPages/fishingCollections/items/prismarineCrystals.html"
     },
@@ -792,10 +836,14 @@ const collections = [
         category: "Fishing",
         subFolder: "items",
         searchTerms: [
-
+            "prismarine shard",
+            "prismarine shards",
+            "prismarine shard collection",
+            "guardian drop",
+            "fishing prismarine"
         ],
         
-        traits: ["dead", "lightColor", "prismarine"],
+        traits: ["fishing", "prismarine", "shard", "guardian", "mobDrop", "water", "collectionItem"],
         similar: ["Prismarine Crystals"],
         url: "collectionPages/fishingCollections/items/prismarineShard.html"
     },
@@ -805,10 +853,14 @@ const collections = [
         category: "Fishing",
         subFolder: "items",
         searchTerms: [
-
+            "sponges",
+            "sponge collection",
+            "fishing sponge",
+            "water sponge",
+            "sponge item"
         ],
         
-        traits: ["living", "lightColor"],
+        traits: ["fishing", "water", "sponge", "block", "collectionItem"],
         similar: [""],
         url: "collectionPages/fishingCollections/items/sponge.html"
     },
