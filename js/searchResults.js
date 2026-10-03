@@ -24,8 +24,15 @@ const collections = [
             "desert crop",
             "mushroom desert cactus"
         ],
-
-        traits: ["crop", "plant", "cactus", "desert", "mushroomDesert", "farming", "collection"],
+        traits: [
+            "crop", 
+            "plant", 
+            "cactus", 
+            "desert", 
+            "mushroomDesert", 
+            "farming", 
+            "collection"
+        ],
         similar: [],
         url: "collectionPages/farmingCollections/crops/cactus.html"
     },
@@ -41,8 +48,14 @@ const collections = [
             "golden carrot",
             "vegetable crop"
         ],
-
-        traits: ["crop", "plant", "vegetable", "garden", "farming", "collection"],
+        traits: [
+            "crop", 
+            "plant", 
+            "vegetable", 
+            "garden", 
+            "farming", 
+            "collection"
+        ],
         similar: [],
         url: "collectionPages/farmingCollections/crops/carrot.html"
     },
@@ -58,8 +71,14 @@ const collections = [
             "farming cocoa",
             "jungle cocoa"
         ],
-
-        traits: ["crop", "plant", "cocoa", "jungle", "farming", "collection"],
+        traits: [
+            "crop", 
+            "plant", 
+            "cocoa", 
+            "jungle", 
+            "farming", 
+            "collection"
+        ],
         similar: [],
         url: "collectionPages/farmingCollections/crops/cocoaBeans.html"
     },
@@ -75,8 +94,14 @@ const collections = [
             "golden melon",
             "melon crop"
         ],
-
-        traits: ["crop", "plant", "melon", "fruit", "garden", "farming", "collection"],
+        traits: [
+            "crop", 
+            "plant", 
+            "melon", 
+            "fruit",
+            "garden", 
+            "farming", 
+            "collection"],
         similar: ["Pumpkin"],
         url: "collectionPages/farmingCollections/crops/melon.html"
     },
@@ -92,8 +117,15 @@ const collections = [
             "fungus",
             "mushroom desert"
         ],
-
-        traits: ["crop", "plant", "mushroom", "fungus", "mushroomDesert", "farming", "collection"],
+        traits: [
+            "crop", 
+            "plant", 
+            "mushroom", 
+            "fungus", 
+            "mushroomDesert", 
+            "farming", 
+            "collection"
+        ],
         similar: [],
         url: "collectionPages/farmingCollections/crops/mushroom.html"
     },
@@ -109,8 +141,14 @@ const collections = [
             "nether crop",
             "wart"
         ],
-
-        traits: ["crop", "plant", "nether", "wart", "farming", "collection"],
+        traits: [
+            "crop", 
+            "plant", 
+            "nether", 
+            "wart", 
+            "farming", 
+            "collection"
+        ],
         similar: [],
         url: "collectionPages/farmingCollections/crops/netherWart.html"
     },
@@ -126,8 +164,13 @@ const collections = [
             "garden potato",
             "vegetable crop"
         ],
-
-        traits: ["crop", "plant", "vegetable", "garden", "farming", "collection"],
+        traits: [
+            "crop", 
+            "plant", 
+            "vegetable", 
+            "garden", 
+            "farming", 
+            "collection"],
         similar: [],
         url: "collectionPages/farmingCollections/crops/potato.html"
     },
@@ -143,8 +186,14 @@ const collections = [
             "garden pumpkin",
             "pumpkin crop"
         ],
-
-        traits: ["crop", "plant", "pumpkin", "garden", "farming", "collection"],
+        traits: [
+            "crop", 
+            "plant", 
+            "pumpkin", 
+            "garden", 
+            "farming", 
+            "collection"
+        ],
         similar: ["Melon"],
         url: "collectionPages/farmingCollections/crops/pumpkin.html"
     },
@@ -160,8 +209,13 @@ const collections = [
             "farming seeds",
             "crop seeds"
         ],
-
-        traits: ["crop", "plant", "wheat", "farming", "collection"],
+        traits: [
+            "crop", 
+            "plant", 
+            "wheat", 
+            "farming", 
+            "collection"
+        ],
         similar: ["Wheat"],
         url: "collectionPages/farmingCollections/crops/seeds.html"
     },
@@ -177,8 +231,14 @@ const collections = [
             "cane",
             "sugar crop"
         ],
-
-        traits: ["crop", "plant", "sugar", "cane", "farming", "collection"],
+        traits: [
+            "crop", 
+            "plant", 
+            "sugar", 
+            "cane", 
+            "farming", 
+            "collection"
+        ],
         similar: [],
         url: "collectionPages/farmingCollections/crops/sugarCane.html"
     },
@@ -194,8 +254,16 @@ const collections = [
             "wheat crop",
             "garden wheat"
         ],
-
-        traits: ["crop", "plant", "grain", "seed", "wheat", "garden", "farming", "collection"],
+        traits: [
+            "crop", 
+            "plant", 
+            "grain", 
+            "seed", 
+            "wheat", 
+            "garden", 
+            "farming", 
+            "collection"
+        ],
         similar: ["Seeds"],
         url: "collectionPages/farmingCollections/crops/wheat.html"
     },
@@ -1146,11 +1214,24 @@ const collections = [
         category: "Mining",
         subFolder: "blocks",
         searchTerms: [
-
+            "cobble",
+            "cobblestone collection",
+            "cobble collection",
+            "stone block",
+            "cobblestone mining"
         ],
-        
-        traits: ["stone", "gray"],
-        similar: ["Hard Stone"],
+        traits: [
+            "mining", 
+            "collection", 
+            "block", 
+            "stone", 
+            "overworld", 
+            "basicMaterial"
+        ],
+        similar: [
+            "Hard Stone", 
+            "Gravel"
+        ],
         url: "collectionPages/miningCollections/blocks/cobblestone.html"
     },
 
@@ -1159,11 +1240,25 @@ const collections = [
         category: "Mining",
         subFolder: "blocks",
         searchTerms: [
-
+            "gravel collection",
+            "gravel mining",
+            "flint source",
+            "flint",
+            "spiders den gravel"
         ],
-        
-        traits: ["gray", "canFall"],
-        similar: ["Sand", "Red Sand"],
+        traits: [
+            "mining", 
+            "collection", 
+            "block", 
+            "gravel", 
+            "fallingBlock", 
+            "flint", 
+            "spidersDen"
+        ],
+        similar: ["Sand", 
+            "Red Sand", 
+            "Cobblestone"
+        ],
         url: "collectionPages/miningCollections/blocks/gravel.html"
     },
 
@@ -1172,11 +1267,29 @@ const collections = [
         category: "Mining",
         subFolder: "blocks",
         searchTerms: [
-
+            "hardstone",
+            "hard stone collection",
+            "hardstone collection",
+            "crystal hollows stone",
+            "glacite tunnels hard stone"
         ],
         
-        traits: ["gray", "stone"],
-        similar: ["Cobblestone"],
+        traits: [
+            "mining", 
+            "collection", 
+            "block", 
+            "stone", 
+            "hardStone", 
+            "crystalHollows", 
+            "glaciteTunnels", 
+            "underground"
+        ],
+        similar: [
+            "Cobblestone", 
+            "Mithril", 
+            "Tungsten", 
+            "Umber"
+        ],
         url: "collectionPages/miningCollections/blocks/hardStone.html"
     },
 
@@ -1185,11 +1298,24 @@ const collections = [
         category: "Mining",
         subFolder: "blocks",
         searchTerms: [
-
+            "ice collection",
+            "ice mining",
+            "frozen block",
+            "jerrys workshop ice",
+            "jerry island ice"
         ],
         
-        traits: [],
-        similar: [],
+        traits: [
+            "mining",
+            "collection",
+            "block",
+            "ice",
+            "frozen",
+            "snow",
+            "jerryIsland",
+            "jerrysWorkshop"
+        ],
+        similar: ["Hard Stone"],
         url: "collectionPages/miningCollections/blocks/ice.html"
     },
 
@@ -1198,11 +1324,25 @@ const collections = [
         category: "Mining",
         subFolder: "blocks",
         searchTerms: [
-
+            "mycelium collection",
+            "mycelium mining",
+            "crimson isle mycelium",
+            "crimson mycelium",
+            "mushroom block"
         ],
-        
-        traits: [],
-        similar: [],
+        traits: [
+            "mining",
+            "collection",
+            "block",
+            "mycelium",
+            "crimsonIsle",
+            "mushroom",
+            "nether"
+        ],
+        similar: [
+            "Red Sand",
+            "Sulphur"
+        ],
         url: "collectionPages/miningCollections/blocks/mycelium.html"
     },
 
@@ -1211,11 +1351,26 @@ const collections = [
         category: "Mining",
         subFolder: "blocks",
         searchTerms: [
-
+            "obby",
+            "obsidian collection",
+            "obby collection",
+            "obsidian mining",
+            "deep caverns obsidian",
+            "obsidian sanctuary"
         ],
-        
-        traits: [],
-        similar: [],
+        traits: [
+            "mining",
+            "collection",
+            "block",
+            "obsidian",
+            "deepCaverns",
+            "obsidianSanctuary",
+            "dark"
+        ],
+        similar: [
+            "Diamond",
+            "Redstone Dust"
+        ],
         url: "collectionPages/miningCollections/blocks/obsidian.html"
     },
 
@@ -1224,11 +1379,29 @@ const collections = [
         category: "Mining",
         subFolder: "blocks",
         searchTerms: [
-
+            "redsand",
+            "red sand collection",
+            "redsand collection",
+            "red sand mining",
+            "crimson isle sand",
+            "crimson isle red sand"
         ],
-        
-        traits: ["canFall", "sand"],
-        similar: ["Sand", "Gravel"],
+        traits: [
+            "mining", 
+            "collection",
+            "block",
+            "sand",
+            "redSand",
+            "fallingBlock",
+            "crimsonIsle",
+            "nether"
+        ],
+        similar: [
+            "Sand", 
+            "Gravel",
+            "Mycelium",
+            "sulphur"
+        ],
         url: "collectionPages/miningCollections/blocks/redSand.html"
     },
 
@@ -1237,11 +1410,25 @@ const collections = [
         category: "Mining",
         subFolder: "blocks",
         searchTerms: [
-
+            "sand collection",
+            "sand mining",
+            "desert sand",
+            "mushroom desert sand",
+            "desert collection"
         ],
-        
-        traits: ["canFall", "sand"],
-        similar: ["Red Sand", "Gravel"],
+        traits: [
+            "mining",
+            "collection",
+            "block",
+            "sand",
+            "fallingBlock",
+            "desert",
+            "mushroomDesert"
+        ],
+        similar: [
+            "Red Sand", 
+            "Gravel"
+        ],
         url: "collectionPages/miningCollections/blocks/sand.html"
     },
 
