@@ -2000,10 +2000,33 @@ const collections = [
         category: "Mining",
         subFolder: "stones",
         searchTerms: [
-
+            "emeralds",
+            "emeralds collection",
+            "emerald collection",
+            "emerald mining",
+            "emeralds mining",
+            "emerald ore",
+            "emeralds ore",
+            "deep Cavern mining",
+            "deep Cavern emerald",
+            "deep Cavern emeralds",
+            "slimehill emerald",
+            "slime hill emerald"
         ],
-        traits: ["bright", "stone", "overworld"],
-        similar: [],
+        traits: [
+            "mining",
+            "collection",
+            "ore",
+            "emerald",
+            "gem",
+            "deepCavern",
+            "slimeHill"
+        ],
+        similar: [
+            "Diamond",
+            "Lapis Lazuli",
+            "Gemsto"
+        ],
         url: "collectionPages/miningCollections/stones/emerald.html"
     },
 
@@ -2012,11 +2035,52 @@ const collections = [
         category: "Mining",
         subFolder: "stones",
         searchTerms: [
-
+            "gems",
+            "gem",
+            "gemstones",
+            "gemstone collection",
+            "gems collection",
+            "gem collection",
+            "gemstones collection",
+            "gem mining",
+            "gems mining",
+            "gemstone mining",
+            "gemstones mining",
+            "dwarven mine gemstone",
+            "crystal hollows gem",
+            "glacitie tunnels gemstones",
+            "ruby",
+            "amber",
+            "jade",
+            "saphire",
+            "amathyst",
+            "topaz",
+            "jasper",
+            "opal",
+            "onyx",
+            "aquamarine",
+            "citrie",
+            "peridot"
         ],
-        
-        traits: ["bright", "stone", "dwarvenMine"],
-        similar: [],
+        traits: [
+            "dwarvenMine",
+            "mining",
+            "collection",
+            "gem",
+            "gemstone",
+            "crystalHollows",
+            "glaciteTunnels",
+            "precious",
+            "miningGear",
+            "GemstoneSlots",
+        ],
+        similar: [
+            "Diamond",
+            "Emerald",
+            "Mithril",
+            "Tungsten",
+            "Umber"
+        ],
         url: "collectionPages/miningCollections/stones/gemstone.html"
     },
 
@@ -2025,11 +2089,34 @@ const collections = [
         category: "Mining",
         subFolder: "stones",
         searchTerms: [
-
+            "lapis",
+            "lapis lazuli",
+            "lapis collection",
+            "lapis lazuli collection",
+            "lapis ore",
+            "lapis lazuli ore",
+            "lapis mining",
+            "lapis lazuli mining",
+            "deep caverns lapis",
+            "deep caverns lapis lazuli",
+            "lapis quarry",
+            "lapis lazuli quarry"
         ],
-        
-        traits: ["bright", "stone", "overworld"],
-        similar: [],
+        traits: [
+            "mining",
+            "collection",
+            "ore",
+            "lapis",
+            "lapis lazuli",
+            "deepCaverns",
+            "lapis Quarry",
+            "blue"
+        ],
+        similar: [
+            "Redstone Dust",
+            "Emerald",
+            "Diamond"
+        ],
         url: "collectionPages/miningCollections/stones/lapisLazuli.html"
     },
 
@@ -2038,11 +2125,29 @@ const collections = [
         category: "Mining",
         subFolder: "stones",
         searchTerms: [
-
+            "mithril",
+            "mithril collection",
+            "mithril ore",
+            "mithril mining",
+            "dwarven mines mithril",
+            "dwarven metal",
+            "glacite tunnels mithril",
         ],
-        
-        traits: ["dark", "stone", "dwarvenMine"],
-        similar: [],
+        traits: [
+            "mining",
+            "collection",
+            "ore",
+            "mithril",
+            "dwarvenMetal",
+            "dwarvenMines",
+            "glaciteTunnels",
+            "heartOfTheMountain"
+        ],
+        similar: [
+            "Tungsten",
+            "Umber",
+            "Gemstone"
+        ],
         url: "collectionPages/miningCollections/stones/mithril.html"
     },
 
@@ -2051,11 +2156,29 @@ const collections = [
         category: "Mining",
         subFolder: "stones",
         searchTerms: [
-
+            "tungsten",
+            "tungsten collection",
+            "tungsten mining",
+            "tungsten ore",
+            "glacite tunnels tungsten",
+            "dwarven base camp tungsten",
+            "mineshaft tungsten"
         ],
-        
-        traits: ["dark", "stone", "dwarvenMine"],
-        similar: [],
+        traits: [
+            "mining",
+            "collection",
+            "ore",
+            "tungsten",
+            "glaciteTUnnels",
+            "dwarvenBaseCamp",
+            "mineshaft",
+            "highBreakingPower"
+        ],
+        similar: [
+            "Umber",
+            "Mithril",
+            "Gemstone"
+        ],
         url: "collectionPages/miningCollections/stones/tungsten.html"
     },
 
@@ -2064,26 +2187,60 @@ const collections = [
         category: "Mining",
         subFolder: "stones",
         searchTerms: [
-
+            "umber",
+            "umber collection",
+            "umber ore",
+            "umber mining",
+            "glacite tunnels umber",
+            "dwarven base camp umber",
+            "mineshaft umber"
         ],
-        
-        traits: ["dark", "stone", "dwarvenMine"],
-        similar: [],
+        traits: [
+            "mining",
+            "collection",
+            "ore",
+            "umber",
+            "glaciteTunnels",
+            "dwarvenBaseCamp",
+            "mineshaft",
+            "highBreakingPower"
+        ],
+        similar: [
+            "Tungsten",
+            "Mithril",
+            "Gemstone"
+        ],
         url: "collectionPages/miningCollections/stones/umber.html"
     },
 
-    //Rift collection page
-
+    // Rift collection pages search terms
     {
         name: "Agaricus Cap",
         category: "Rift",
         subFolder: "objects",
         searchTerms: [
-
+            "agaricus",
+            "agaricus cap",
+            "agaricus cap collection",
+            "mushroom",
+            "rift mushroom",
+            "wyld woods mushroom",
+            "agaricus cap cap"
         ],
-        
-        traits: ["earlyRift", "rift"],
-        similar: [],
+        traits: [
+            "rift",
+            "collection",
+            "plant",
+            "mushroom",
+            "wyldWoods",
+            "gathering",
+            "riftMaterial"
+        ],
+        similar: [
+            "Caducous Stem",
+            "Wilted Berberis",
+            "Half-Eaten Carrot"
+        ],
         url: "collectionPages/riftCollections/objects/agaricusCap.html"
     },
 
@@ -2092,11 +2249,28 @@ const collections = [
         category: "Rift",
         subFolder: "objects",
         searchTerms: [
-
+            "caducous",
+            "caducous stem",
+            "caducous stem collection",
+            "caduous plant",
+            "rift plant",
+            "caducous stem bunch",
+            "caducous extract"
         ],
-        
-        traits: ["plant", "rift", "earlyRift"],
-        similar: [""],
+        traits: [
+            "rift",
+            "collection",
+            "plant",
+            "stem",
+            "gathering",
+            "riftMaterial",
+            "craftingMaterial"
+        ],
+        similar: [
+            "Agaricus Cap",
+            "Wilted Berberis",
+            "Half Eaten Carrot"
+        ],
         url: "collectionPages/riftCollections/objects/caducousStem.html"
     },
 
@@ -2105,11 +2279,29 @@ const collections = [
         category: "Rift",
         subFolder: "objects",
         searchTerms: [
-
+            "half eaten carrot",
+            "half-eaten carrot",
+            "half eaten carrots",
+            "carrot",
+            "rift carrot",
+            "carrot collection",
+            "half eaten carrot collection"
         ],
-        
-        traits: ["plant", "rift"],
-        similar: [""],
+        traits: [
+            "rift",
+            "collection",
+            "plant",
+            "crop",
+            "food",
+            "carrot",
+            "gathering",
+            "riftMaterial" 
+        ],
+        similar: [
+            "Agaricus Cap",
+            "Caducous Stem",
+            "Wilted Berberis"
+        ],
         url: "collectionPages/riftCollections/objects/halfEatenCarrot.html"
     },
 
@@ -2118,11 +2310,30 @@ const collections = [
         category: "Rift",
         subFolder: "objects",
         searchTerms: [
-
+            "hemovibe",
+            "hemovibes",
+            "hemovibe collection",
+            "hemo",
+            "vampire",
+            "vampire material",
+            "rift vampire",
+            "stillgore",
+            "stillgore chateau"
         ],
-        
-        traits: [],
-        similar: [],
+        traits: [
+            "rift",
+            "collection",
+            "vampire",
+            "combat",
+            "stillgoreChateau",
+            "mobDrop",
+            "riftMaterial",
+            "blood"
+        ],
+        similar: [
+            "Living Metal Heart",
+            "Timite"
+        ],
         url: "collectionPages/miningCollections//.html"
     },
 
@@ -2131,11 +2342,27 @@ const collections = [
         category: "Rift",
         subFolder: "objects",
         searchTerms: [
-
+            "living metal heart",
+            "living metal",
+            "living metal heart collection",
+            "metal heart",
+            "living metal collection",
+            "rift living metal",
+            "living metal mob"
         ],
-        
-        traits: ["earlyRift", "rift", "living"],
-        similar: [],
+        traits: [
+            "rift",
+            "collection",
+            "livingMetal",
+            "mobDrop",
+            "combat",
+            "riftMaterial",
+            "metal"
+        ],
+        similar: [
+            "Hemovibe",
+            "Timite"
+        ],
         url: "collectionPages/riftCollections/objects/livingMetalHeart.html"
     },
 
@@ -2144,11 +2371,26 @@ const collections = [
         category: "Rift",
         subFolder: "objects",
         searchTerms: [
-
+            "timite",
+            "timite collection",
+            "time",
+            "time material",
+            "rift timite",
+            "rift time",
+            "temporal material"
         ],
-        
-        traits: ["lateRift", "rift"],
-        similar: [],
+        traits: [
+            "rift",
+            "collection",
+            "time",
+            "temporal",
+            "riftMaterials",
+            "specialMaterial"
+        ],
+        similar: [
+            "Living Metal Heart",
+            "Hemovibe"
+        ],
         url: "collectionPages/riftCollections/objects/timite.html"
     },
 
@@ -2157,11 +2399,28 @@ const collections = [
         category: "Rift",
         subFolder: "objects",
         searchTerms: [
-
+            "wilted berberis",
+            "berberis",
+            "wilted berry",
+            "berberis collection",
+            "wilted berberis collection",
+            "rift plant",
+            "rift berry"
         ],
-        
-        traits: ["earlyRift", "rift", "plant"],
-        similar: [],
+        traits: [
+            "rift",
+            "collection",
+            "plant", 
+            "berry",
+            "gathering",
+            "riftMaterial",
+            "wilted"
+        ],
+        similar: [
+            "Caducous Stem",
+            "Agaricus Cap",
+            "Half Eaten Carrot"
+        ],
         url: "collectionPages/riftCollections/objects/wiltedBerberis.html"
     }
 ];
