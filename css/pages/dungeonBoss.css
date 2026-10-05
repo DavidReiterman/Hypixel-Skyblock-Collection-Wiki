@@ -75,3 +75,35 @@
 .dungeonBoss-button:nth-child(8) {
     grid-column: 4 / span 2;
 }
+
+.kuudra-page {
+    background-image: url("../../assets/images/collections/dungeonBosses/kuudra1.webp");
+}
+
+.bonzo-page {
+    background-image: url("../../assets/images/collections/dungeonBosses/dungeonBoss/bonzo1.webp");
+}
+
+.livid-page {
+    background-image: url("../../assets/images/collections/dungeonBosses/dungeonBoss/livid1.webp");
+}
+
+.necron-page {
+    background-image: url("../../assets/images/collections/dungeonBosses/dungeonBoss/necron1.webp");
+}
+
+.sadan-page {
+    background-image: url("../../assets/images/collections/dungeonBosses/dungeonBoss/sadan1.webp");
+}
+
+.scarf-page {
+    background-image: url("../../assets/images/collections/dungeonBosses/dungeonBoss/scarf1.webp");
+}
+
+.theProfessor-page {
+    background-image: url("../../assets/images/collections/dungeonBosses/dungeonBoss/theProfessor1.webp");
+}
+
+.thorn-page {
+    background-image: url("../../assets/images/collections/dungeonBosses/dungeonBoss/thorn1.webp");
+}

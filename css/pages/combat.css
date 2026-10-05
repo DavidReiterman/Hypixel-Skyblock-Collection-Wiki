@@ -117,3 +117,47 @@
         0 2px 0 #4b2a19,
         0 5px 8px rgba(0, 0, 0, 0.3);
 }
+
+.blazeRod-page {
+    background-image: url("../../assets/images/collections/combat/combat/nether/blazeRod1.webp");
+}
+
+.chiliPepper-page {
+    background-image: url("../../assets/images/collections/combat/combat/nether/chiliPepper1.webp");
+}
+
+.ghastTear-page {
+    background-image: url("../../assets/images/collections/combat/combat/nether/ghastTear1.webp");
+}
+
+.magmaCream-page {
+    background-image: url("../../assets/images/collections/combat/combat/nether/magmaCream1.webp");
+}
+
+.bone-page {
+    background-image: url("../../assets/images/collections/combat/combat/overworld/bone1.webp");
+}
+
+.enderPearl-page {
+    background-image: url("../../assets/images/collections/combat/combat/overworld/enderPearl1.webp");
+}
+
+.gunpowder-page {
+    background-image: url("../../assets/images/collections/combat/combat/overworld/gunpowder1.webp");
+}
+
+.rottenFlesh-page {
+    background-image: url("../../assets/images/collections/combat/combat/overworld/rottenFlesh1.webp");
+}
+
+.slimeball-page {
+    background-image: url("../../assets/images/collections/combat/combat/overworld/slimeball1.webp");
+}
+
+.spiderEye-page {
+    background-image: url("../../assets/images/collections/combat/combat/overworld/spiderEye1.webp");
+}
+
+.string-page {
+    background-image: url("../../assets/images/collections/combat/combat/overworld/string1.webp");
+}
