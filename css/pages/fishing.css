@@ -58,3 +58,51 @@
     transform: translate(-3px);
     box-shadow: 0 8px 14px rgba(0, 0, 0, 0.5);
 }
+
+.inkSack-page {
+    background-image: url("../../assets/images/collections/fishing/fish/inkSack1.webp");
+}
+
+.magmafish-page {
+    background-image: url("../../assets/images/collections/fishing/fish/magmafish1.webp");
+}
+
+.pufferfish-page {
+    background-image: url("../../assets/images/collections/fishing/fish/pufferfish1.webp");
+}
+
+.rawCod-page {
+    background-image: url("../../assets/images/collections/fishing/fish/rawCod1.webp");
+}
+
+.rawSalmon-page {
+    background-image: url("../../assets/images/collections/fishing/fish/rawSalmon1.webp");
+}
+
+.tropicalFish-page {
+    background-image: url("../../assets/images/collections/fishing/fish/tropicalFish1.webp");
+}
+
+.clayBall-page {
+    background-image: url("../../assets/images/collections/fishing/items/clayBall1.webp");
+}
+
+.lilyPad-page {
+    background-image: url("../../assets/images/collections/fishing/items/lilyPad1.webp");
+}
+
+.lotus-page {
+    background-image: url("../../assets/images/collections/fishing/items/lotus1.webp");
+}
+
+.prismarineCrystals-page {
+    background-image: url("../../assets/images/collections/fishing/items/prismarineCrystals1.webp");
+}
+
+.prismarineShard-page {
+    background-image: url("../../assets/images/collections/fishing/items/prismarineShard1.webp");
+}
+
+.sponge-page {
+    background-image: url("../../assets/images/collections/fishing/items/sponge1.webp");
+}

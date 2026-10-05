@@ -67,3 +67,87 @@
     justify-self: center;
     width: 220px;
 }
+
+.cobblestone-page {
+    background-image: url("../../assets/images/collections/mining/blocks/cobblestone1.webp");
+}
+
+.gravel-page {
+    background-image: url("../../assets/images/collections/mining/blocks/gravel1.webp");
+}
+
+.hardStone-page {
+    background-image: url("../../assets/images/collections/mining/blocks/hardStone1.webp");
+}
+
+.ice-page {
+    background-image: url("../../assets/images/collections/mining/blocks/ice1.webp");
+}
+
+.mycelium-page {
+    background-image: url("../../assets/images/collections/mining/blocks/mycelium1.webp");
+}
+
+.obsidian-page {
+    background-image: url("../../assets/images/collections/mining/blocks/obsidian1.webp");
+}
+
+.redSand-page {
+    background-image: url("../../assets/images/collections/mining/blocks/redSand1.webp");
+}
+
+.sand-page {
+    background-image: url("../../assets/images/collections/mining/blocks/sand1.webp");
+}
+
+.glowstone-page {
+    background-image: url("../../assets/images/collections/mining/dust/glowstone1.webp");
+}
+
+.redstone-page {
+    background-image: url("../../assets/images/collections/mining/dust/redstone1.webp");
+}
+
+.sulphur-page {
+    background-image: url("../../assets/images/collections/mining/dust/sulphur1.webp");
+}
+
+.gold-page {
+    background-image: url("../../assets/images/collections/mining/ingots/gold1.webp");
+}
+
+.iron-page {
+    background-image: url("../../assets/images/collections/mining/ingots/ingot1.webp");
+}
+
+.coal-page {
+    background-image: url("../../assets/images/collections/mining/stones/coal1.webp");
+}
+
+.diamond-page {
+    background-image: url("../../assets/images/collections/mining/stones/diamond1.webp");
+}
+
+.emerald-page {
+    background-image: url("../../assets/images/collections/mining/stones/emerald1.webp");
+}
+
+.gemstone-page {
+    background-image: url("../../assets/images/collections/mining/stones/gemstone1.webp");
+}
+
+.lapisLazuli-page {
+    background-image: url("../../assets/images/collections/mining/stones/lapisLazuli1.webp");
+}
+
+.mithril-page {
+    background-image: url("../../assets/images/collections/mining/stones/mithril1.webp");
+}
+
+.tungsten-page {
+    background-image: url("../../assets/images/collections/mining/stones/tungsten1.webp");
+}
+
+.umber-page {
+    background-image: url("../../assets/images/collections/mining/stones/umber1.webp");
+}
